@@ -3,8 +3,8 @@ import logging
 from typing import Optional, Callable
 from bleak import BleakClient
 
-from movella_dot_types import QuaternionData
-from movella_dot_parser import parse_quaternion_data
+from movella.types import QuaternionData
+from movella.parser import parse_quaternion_data
 
 # UUIDs for Movella DOT
 CONTROL_CHARACTERISTIC_UUID = "15172001-4947-11e9-8646-d663bd873d93"

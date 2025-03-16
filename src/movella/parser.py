@@ -2,7 +2,7 @@ import numpy as np
 import logging
 from typing import Optional
 
-from movella_dot_types import QuaternionData
+from movella.types import QuaternionData
 
 def parse_quaternion_data(bytes_: bytes) -> Optional[QuaternionData]:
     """

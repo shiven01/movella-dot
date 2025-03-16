@@ -1,14 +1,17 @@
 import asyncio
 import logging
+from pathlib import Path
 
-from movella_dot_client import MovellaDotClient
-from movella_dot_types import QuaternionData
+from movella.client import MovellaDotClient
+from movella.types import QuaternionData
 
 def setup_logging():
+    log_file = Path(__file__).parent.parent / "logs" / "movella_quaternion.log"
+    
     logging.basicConfig(
         level=logging.DEBUG,
         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-        filename='movella_quaternion.log'
+        filename=log_file
     )
 
     console = logging.StreamHandler()
