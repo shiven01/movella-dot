@@ -23,3 +23,7 @@ A Python-based tool to connect to Movella DOT sensors via Bluetooth Low Energy (
    ```bash
    git clone https://github.com/yourusername/movella-dot-quaternion.git
    cd movella-dot-quaternion
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
