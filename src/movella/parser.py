@@ -24,18 +24,19 @@ def parse_quaternion_data(bytes_: bytes) -> Optional[QuaternionData]:
         return None
     
     try:
+        # Mapping binary data to structured array
         dtype = np.dtype([
             ('timestamp', np.uint32),
             ('quat_w', np.float32), ('quat_x', np.float32), ('quat_y', np.float32), ('quat_z', np.float32),
             ('free_acc_x', np.float32), ('free_acc_y', np.float32), ('free_acc_z', np.float32),
             ('status', np.uint16),
             ('clip_acc', np.uint8), ('clip_gyro', np.uint8),
-            ('reserved', np.uint8, 4)  # Corrected: 4-byte reserved field
+            ('reserved', np.uint8, 4)
         ])
         
         data = np.frombuffer(bytes_, dtype=dtype)[0]
         
-        # Extract fields explicitly, ignoring reserved
+        # Converting numpy array to Quaternion data structure
         quat_data = QuaternionData(
             timestamp=data['timestamp'],
             quat_w=data['quat_w'],
