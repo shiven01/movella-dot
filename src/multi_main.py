@@ -11,12 +11,12 @@ from movella.multi.multi_client import MultiMovellaDotClient
 
 def setup_logging():
     log_file = Path(__file__).parent.parent / "logs" / "movella_multi_sensor.log"
-    log_file.parent.mkdir(exist_ok=True)
     
     logging.basicConfig(
         level=logging.DEBUG,
         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-        filename=log_file
+        filename=log_file,
+        filemode='a'
     )
 
     console = logging.StreamHandler()
@@ -24,6 +24,7 @@ def setup_logging():
     formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
     console.setFormatter(formatter)
     logging.getLogger('').addHandler(console)
+    logging.getLogger('bleak').setLevel(logging.WARNING)
 
 def process_quaternion(sensor_id: str, quat_data: QuaternionData) -> None:
     """
@@ -34,14 +35,18 @@ def process_quaternion(sensor_id: str, quat_data: QuaternionData) -> None:
         quat_data: Quaternion data from the Movella DOT
     """
     w, x, y, z = quat_data.quaternion
-    print(f"Sensor: {sensor_id}")
-    print(f"Quaternion (w,x,y,z): ({w:.4f}, {x:.4f}, {y:.4f}, {z:.4f})")
-    
     ax, ay, az = quat_data.free_acceleration
-    print(f"Free acceleration (m/s²): ({ax:.2f}, {ay:.2f}, {az:.2f})")
+
+    data_lines = [
+        f"Sensor: {sensor_id}",
+        f"Quaternion (w,x,y,z): ({w:.4f}, {x:.4f}, {y:.4f}, {z:.4f})",
+        f"Free acceleration (m/s²): ({ax:.2f}, {ay:.2f}, {az:.2f})"
+    ]
     
-    # Readability Divider
     print("-" * 50)
+    data_message = "\n".join(data_lines)
+    logging.info(f"Quaternion Data:\n{data_message}")
+    print(data_message)
 
 async def scan_for_movella_devices(timeout: float = 5.0) -> List[Tuple[str, str]]:
     """
