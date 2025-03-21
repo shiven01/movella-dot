@@ -3,18 +3,18 @@ from typing import Tuple
 
 @dataclass
 class QuaternionData:
-    """Data class for quaternion orientation data"""
-    timestamp: int  # microseconds
-    quat_w: float
-    quat_x: float
-    quat_y: float
-    quat_z: float
-    free_acc_x: float
-    free_acc_y: float
-    free_acc_z: float
-    status: int
-    clip_acc: int
-    clip_gyro: int
+    def __init__(self, 
+                 timestamp: int = 0,
+                 quaternion: Tuple[float, float, float, float] = (0.0, 0.0, 0.0, 0.0),
+                 free_acceleration: Tuple[float, float, float] = (0.0, 0.0, 0.0),
+                 acceleration: Tuple[float, float, float] = (0.0, 0.0, 0.0),
+                 angular_velocity: Tuple[float, float, float] = (0.0, 0.0, 0.0)
+                ):
+        self.timestamp = timestamp
+        self.quaternion = quaternion
+        self.free_acceleration = free_acceleration
+        self.acceleration = acceleration
+        self.angular_velocity = angular_velocity
     
     @property
     def quaternion(self) -> Tuple[float, float, float, float]:
