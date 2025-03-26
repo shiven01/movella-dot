@@ -36,13 +36,15 @@ def process_quaternion(sensor_id: str, quat_data: QuaternionData) -> None:
     """
     w, x, y, z = quat_data.quaternion
     ax, ay, az = quat_data.free_acceleration
+    gx, gy, gz = quat_data.angular_velocity
 
     data_lines = [
         f"Sensor: {sensor_id}",
         f"Timestamp: {quat_data.timestamp}",
         f"Sensor: {sensor_id}",
         f"Quaternion (w,x,y,z): ({w:.4f}, {x:.4f}, {y:.4f}, {z:.4f})",
-        f"Free acceleration (m/s²): ({ax:.2f}, {ay:.2f}, {az:.2f})"
+        f"Free acceleration (m/s²): ({ax:.2f}, {ay:.2f}, {az:.2f})",
+        f"Angular Velocity (dps): ({gx:.2f}, {gy:.2f}, {gz:.2f})"
     ]
     
     print("-" * 50)
