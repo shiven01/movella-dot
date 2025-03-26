@@ -1,1 +1,2 @@
-movella_multi_sensor.log
+logs/
+__pycache__/
