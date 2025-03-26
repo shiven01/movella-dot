@@ -21,10 +21,20 @@ class QuaternionData:
         """Returns the quaternion as a tuple (w, x, y, z)"""
         return (self.quat_w, self.quat_x, self.quat_y, self.quat_z)
     
+    @quaternion.setter
+    def quaternion(self, quat: Tuple[float, float, float, float]):
+        """Sets quaternion components from a tuple (w, x, y, z)"""
+        self.quat_w, self.quat_x, self.quat_y, self.quat_z = quat
+    
     @property
     def free_acceleration(self) -> Tuple[float, float, float]:
         """Returns the free acceleration as a tuple (x, y, z)"""
         return (self.free_acc_x, self.free_acc_y, self.free_acc_z)
+    
+    @free_acceleration.setter
+    def free_acceleration(self, acc: Tuple[float, float, float]):
+        """Sets free acceleration components from a tuple (x, y, z)"""
+        self.free_acc_x, self.free_acc_y, self.free_acc_z = acc
     
     def is_quaternion_normalized(self, tolerance: float = 0.1) -> bool:
         """Check if quaternion is normalized (w²+x²+y²+z² ≈ 1)"""
