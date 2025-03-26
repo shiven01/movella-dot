@@ -1,0 +1,4225 @@
+2025-03-26 10:07:32,492 - root - INFO - Added sensor Sensor-1 with address FDA12AEB-7B7A-CF68-A2D0-825E19945E6F
+2025-03-26 10:07:40,798 - root - INFO - Connection status: True
+2025-03-26 10:07:40,798 - root - DEBUG - Service: 15173000-4947-11e9-8646-d663bd873d93
+2025-03-26 10:07:40,799 - root - DEBUG -   Characteristic: 15173001-4947-11e9-8646-d663bd873d93, Properties: ['read', 'notify']
+2025-03-26 10:07:40,799 - root - DEBUG - Service: 15174000-4947-11e9-8646-d663bd873d93
+2025-03-26 10:07:40,799 - root - DEBUG -   Characteristic: 15174001-4947-11e9-8646-d663bd873d93, Properties: ['write-without-response', 'write']
+2025-03-26 10:07:40,799 - root - DEBUG -   Characteristic: 15174002-4947-11e9-8646-d663bd873d93, Properties: ['write-without-response', 'write']
+2025-03-26 10:07:40,799 - root - DEBUG -   Characteristic: 15174003-4947-11e9-8646-d663bd873d93, Properties: ['read', 'notify']
+2025-03-26 10:07:40,799 - root - DEBUG - Service: 15172000-4947-11e9-8646-d663bd873d93
+2025-03-26 10:07:40,799 - root - DEBUG -   Characteristic: 15172001-4947-11e9-8646-d663bd873d93, Properties: ['read', 'write']
+2025-03-26 10:07:40,799 - root - DEBUG -   Characteristic: 15172002-4947-11e9-8646-d663bd873d93, Properties: ['notify']
+2025-03-26 10:07:40,799 - root - DEBUG -   Characteristic: 15172003-4947-11e9-8646-d663bd873d93, Properties: ['notify']
+2025-03-26 10:07:40,799 - root - DEBUG -   Characteristic: 15172004-4947-11e9-8646-d663bd873d93, Properties: ['notify']
+2025-03-26 10:07:40,799 - root - DEBUG -   Characteristic: 15172005-4947-11e9-8646-d663bd873d93, Properties: ['write']
+2025-03-26 10:07:40,799 - root - DEBUG -   Characteristic: 15172006-4947-11e9-8646-d663bd873d93, Properties: ['read', 'write']
+2025-03-26 10:07:40,799 - root - DEBUG -   Characteristic: 15172007-4947-11e9-8646-d663bd873d93, Properties: ['read']
+2025-03-26 10:07:40,799 - root - DEBUG -   Characteristic: 15172008-4947-11e9-8646-d663bd873d93, Properties: ['read']
+2025-03-26 10:07:40,799 - root - DEBUG - Service: 15171000-4947-11e9-8646-d663bd873d93
+2025-03-26 10:07:40,799 - root - DEBUG -   Characteristic: 15171001-4947-11e9-8646-d663bd873d93, Properties: ['read']
+2025-03-26 10:07:40,800 - root - DEBUG -   Characteristic: 15171002-4947-11e9-8646-d663bd873d93, Properties: ['read', 'write']
+2025-03-26 10:07:40,800 - root - DEBUG -   Characteristic: 15171004-4947-11e9-8646-d663bd873d93, Properties: ['notify']
+2025-03-26 10:07:40,800 - root - DEBUG - Service: 15177000-4947-11e9-8646-d663bd873d93
+2025-03-26 10:07:40,800 - root - DEBUG -   Characteristic: 15177001-4947-11e9-8646-d663bd873d93, Properties: ['write']
+2025-03-26 10:07:40,800 - root - DEBUG -   Characteristic: 15177002-4947-11e9-8646-d663bd873d93, Properties: ['read']
+2025-03-26 10:07:40,800 - root - DEBUG -   Characteristic: 15177003-4947-11e9-8646-d663bd873d93, Properties: ['notify']
+2025-03-26 10:07:40,800 - root - INFO - Connected successfully to FDA12AEB-7B7A-CF68-A2D0-825E19945E6F
+2025-03-26 10:07:40,800 - root - INFO - Streaming quaternion data for 10.0 seconds...
+2025-03-26 10:07:41,426 - root - INFO - Successfully subscribed to long payload notifications
+2025-03-26 10:07:41,576 - root - INFO - Set measurement mode to Custom Mode 5
+2025-03-26 10:07:41,577 - root - INFO - Streaming motion data for 10.0 seconds...
+2025-03-26 10:07:41,637 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610150609
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7492, -0.0088, -0.0061, 0.6623)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-0.08, 0.07, 0.18)
+2025-03-26 10:07:41,638 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610167276
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7490, -0.0089, -0.0063, 0.6625)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.17, 1.30)
+2025-03-26 10:07:41,667 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610183943
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7491, -0.0091, -0.0064, 0.6623)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.28, 1.25)
+2025-03-26 10:07:41,668 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610200610
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7494, -0.0093, -0.0065, 0.6620)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.33, 1.20)
+2025-03-26 10:07:41,695 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610217277
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7497, -0.0094, -0.0067, 0.6617)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.37, 1.26)
+2025-03-26 10:07:41,727 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610233944
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7497, -0.0094, -0.0069, 0.6616)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.27, 1.27)
+2025-03-26 10:07:41,727 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610250611
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7499, -0.0095, -0.0070, 0.6615)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.21, 1.22)
+2025-03-26 10:07:41,757 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610267278
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7499, -0.0096, -0.0072, 0.6615)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.27, 1.24)
+2025-03-26 10:07:41,757 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610283945
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7498, -0.0096, -0.0073, 0.6615)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.56, -1.30, 1.21)
+2025-03-26 10:07:41,787 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610300612
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7498, -0.0096, -0.0075, 0.6616)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.29, 1.28)
+2025-03-26 10:07:41,788 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610317279
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7499, -0.0095, -0.0077, 0.6614)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.29, 1.30)
+2025-03-26 10:07:41,818 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610333946
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7499, -0.0095, -0.0079, 0.6614)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.35, 1.33)
+2025-03-26 10:07:41,819 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610350613
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7499, -0.0095, -0.0080, 0.6614)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.57, -1.24, 1.29)
+2025-03-26 10:07:41,848 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610367280
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7498, -0.0095, -0.0082, 0.6615)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.22, 1.15)
+2025-03-26 10:07:41,877 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610383947
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7498, -0.0095, -0.0084, 0.6616)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.67, -1.30, 1.22)
+2025-03-26 10:07:41,877 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610400614
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7498, -0.0095, -0.0085, 0.6615)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.25, 1.22)
+2025-03-26 10:07:41,907 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610417281
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7498, -0.0095, -0.0087, 0.6615)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.68, -1.22, 1.28)
+2025-03-26 10:07:41,907 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610433948
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7498, -0.0096, -0.0089, 0.6615)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.70, -1.25, 1.28)
+2025-03-26 10:07:41,938 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610450615
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7499, -0.0096, -0.0091, 0.6615)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.57, -1.46, 1.29)
+2025-03-26 10:07:41,938 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610467282
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7499, -0.0096, -0.0093, 0.6614)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.37, 1.17)
+2025-03-26 10:07:41,966 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610483949
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7498, -0.0096, -0.0095, 0.6615)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.66, -1.20, 1.28)
+2025-03-26 10:07:41,966 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610500616
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7498, -0.0097, -0.0097, 0.6615)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.22, 1.27)
+2025-03-26 10:07:41,995 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610517283
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7498, -0.0097, -0.0099, 0.6615)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.28, 1.26)
+2025-03-26 10:07:42,025 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610533950
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7499, -0.0097, -0.0100, 0.6614)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.28, 1.22)
+2025-03-26 10:07:42,027 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610550617
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7498, -0.0098, -0.0102, 0.6615)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.27, 1.22)
+2025-03-26 10:07:42,056 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610567284
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7498, -0.0098, -0.0104, 0.6615)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.18, 1.15)
+2025-03-26 10:07:42,056 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610583951
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7499, -0.0098, -0.0106, 0.6614)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.66, -1.47, 1.21)
+2025-03-26 10:07:42,087 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610600618
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7499, -0.0098, -0.0108, 0.6613)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.51, -1.29, 1.20)
+2025-03-26 10:07:42,088 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610617285
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7499, -0.0099, -0.0110, 0.6614)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.20, 1.25)
+2025-03-26 10:07:42,116 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610633952
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7499, -0.0099, -0.0112, 0.6613)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.57, -1.33, 1.26)
+2025-03-26 10:07:42,116 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610650619
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7499, -0.0099, -0.0114, 0.6614)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.43, 1.17)
+2025-03-26 10:07:42,147 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610667286
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7499, -0.0100, -0.0116, 0.6614)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.25, 1.23)
+2025-03-26 10:07:42,176 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610683953
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7498, -0.0100, -0.0118, 0.6615)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.70, -1.23, 1.24)
+2025-03-26 10:07:42,177 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610700620
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7498, -0.0101, -0.0120, 0.6615)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.74, -1.22, 1.23)
+2025-03-26 10:07:42,205 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610717287
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7498, -0.0101, -0.0122, 0.6615)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.17, 1.20)
+2025-03-26 10:07:42,206 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610733954
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7498, -0.0101, -0.0124, 0.6615)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.67, -1.17, 1.21)
+2025-03-26 10:07:42,236 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610750621
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7499, -0.0102, -0.0126, 0.6614)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.57, -1.34, 1.21)
+2025-03-26 10:07:42,236 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610767288
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7499, -0.0102, -0.0128, 0.6613)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.38, 1.27)
+2025-03-26 10:07:42,265 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610783955
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7499, -0.0102, -0.0130, 0.6613)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.51, -1.27, 1.26)
+2025-03-26 10:07:42,266 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610800622
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7499, -0.0103, -0.0132, 0.6613)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.27, 1.26)
+2025-03-26 10:07:42,295 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610817289
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7499, -0.0103, -0.0134, 0.6613)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.56, -1.53, 1.19)
+2025-03-26 10:07:42,325 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610833956
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7499, -0.0103, -0.0136, 0.6613)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.52, -1.44, 1.21)
+2025-03-26 10:07:42,326 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610850623
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7499, -0.0103, -0.0138, 0.6613)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.30, 1.21)
+2025-03-26 10:07:42,355 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610867290
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7499, -0.0104, -0.0140, 0.6613)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.29, 1.23)
+2025-03-26 10:07:42,356 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610883957
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7499, -0.0104, -0.0142, 0.6613)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.66, -1.22, 1.24)
+2025-03-26 10:07:42,385 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610900624
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7499, -0.0105, -0.0144, 0.6613)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.68, -1.25, 1.20)
+2025-03-26 10:07:42,386 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610917291
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7499, -0.0105, -0.0146, 0.6613)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.66, -1.27, 1.30)
+2025-03-26 10:07:42,415 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610933958
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7500, -0.0106, -0.0148, 0.6612)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.75, -1.26, 1.26)
+2025-03-26 10:07:42,417 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610950625
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7500, -0.0106, -0.0150, 0.6612)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.72, -1.18, 1.23)
+2025-03-26 10:07:42,446 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610967292
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7501, -0.0106, -0.0152, 0.6611)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.66, -1.33, 1.21)
+2025-03-26 10:07:42,477 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 610983959
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7501, -0.0107, -0.0154, 0.6611)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.32, 1.21)
+2025-03-26 10:07:42,477 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611000626
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7501, -0.0107, -0.0156, 0.6610)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.32, 1.24)
+2025-03-26 10:07:42,507 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611017293
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7502, -0.0107, -0.0158, 0.6610)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.51, -1.52, 1.21)
+2025-03-26 10:07:42,507 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611033960
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7502, -0.0107, -0.0160, 0.6610)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.27, 1.22)
+2025-03-26 10:07:42,536 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611050627
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7502, -0.0108, -0.0161, 0.6610)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.11, 1.25)
+2025-03-26 10:07:42,536 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611067294
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7502, -0.0108, -0.0163, 0.6610)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.38, 1.22)
+2025-03-26 10:07:42,565 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611083961
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7502, -0.0108, -0.0166, 0.6610)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.48, 1.23)
+2025-03-26 10:07:42,566 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611100628
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7502, -0.0109, -0.0168, 0.6609)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.44, 1.28)
+2025-03-26 10:07:42,595 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611117295
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7502, -0.0109, -0.0169, 0.6609)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.20, 1.26)
+2025-03-26 10:07:42,625 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611133962
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7502, -0.0110, -0.0171, 0.6609)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.74, -0.94, 1.20)
+2025-03-26 10:07:42,626 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611150629
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7502, -0.0110, -0.0173, 0.6609)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.67, -1.15, 1.24)
+2025-03-26 10:07:42,656 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611167296
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7503, -0.0110, -0.0175, 0.6608)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.52, 1.21)
+2025-03-26 10:07:42,656 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611183963
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7503, -0.0111, -0.0177, 0.6608)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.67, -1.50, 1.27)
+2025-03-26 10:07:42,686 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611200630
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7503, -0.0111, -0.0179, 0.6608)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.20, 1.23)
+2025-03-26 10:07:42,687 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611217297
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7503, -0.0112, -0.0180, 0.6608)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.09, 1.32)
+2025-03-26 10:07:42,717 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611233964
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7503, -0.0112, -0.0182, 0.6608)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.17, 1.26)
+2025-03-26 10:07:42,717 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611250631
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7503, -0.0112, -0.0184, 0.6607)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.50, -1.49, 1.23)
+2025-03-26 10:07:42,748 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611267298
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7503, -0.0112, -0.0186, 0.6607)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.56, 1.21)
+2025-03-26 10:07:42,777 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611283965
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7503, -0.0112, -0.0188, 0.6607)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.46, -1.62, 1.19)
+2025-03-26 10:07:42,777 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611300632
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7504, -0.0113, -0.0189, 0.6606)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -0.87, 1.30)
+2025-03-26 10:07:42,807 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611317299
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7504, -0.0114, -0.0191, 0.6606)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.83, -1.09, 1.26)
+2025-03-26 10:07:42,807 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611333966
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7504, -0.0114, -0.0193, 0.6606)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.44, 1.26)
+2025-03-26 10:07:42,837 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611350633
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7504, -0.0114, -0.0195, 0.6606)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.66, -1.42, 1.21)
+2025-03-26 10:07:42,838 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611367300
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7504, -0.0114, -0.0197, 0.6606)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.50, 1.22)
+2025-03-26 10:07:42,867 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611383967
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7504, -0.0115, -0.0199, 0.6605)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.69, -1.21, 1.26)
+2025-03-26 10:07:42,867 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611400634
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7504, -0.0115, -0.0200, 0.6605)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.02, 1.29)
+2025-03-26 10:07:42,897 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611417301
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7505, -0.0116, -0.0202, 0.6605)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.66, -1.17, 1.24)
+2025-03-26 10:07:42,927 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611433968
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7505, -0.0116, -0.0203, 0.6605)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.52, -1.45, 1.24)
+2025-03-26 10:07:42,928 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611450635
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7505, -0.0116, -0.0205, 0.6605)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.50, 1.26)
+2025-03-26 10:07:42,957 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611467302
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7505, -0.0116, -0.0207, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.48, -1.29, 1.28)
+2025-03-26 10:07:42,957 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611483969
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7505, -0.0117, -0.0208, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.28, 1.29)
+2025-03-26 10:07:42,987 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611500636
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7506, -0.0117, -0.0210, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.28, 1.20)
+2025-03-26 10:07:42,987 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611517303
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7506, -0.0117, -0.0212, 0.6603)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.27, 1.25)
+2025-03-26 10:07:43,017 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611533970
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7506, -0.0118, -0.0213, 0.6603)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.68, -1.34, 1.23)
+2025-03-26 10:07:43,018 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611550637
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7507, -0.0118, -0.0215, 0.6602)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.39, 1.22)
+2025-03-26 10:07:43,048 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611567304
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7507, -0.0118, -0.0216, 0.6602)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.13, 1.27)
+2025-03-26 10:07:43,077 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611583971
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7507, -0.0119, -0.0217, 0.6601)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.71, -0.98, 1.30)
+2025-03-26 10:07:43,077 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611600638
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7507, -0.0119, -0.0219, 0.6601)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.68, -1.23, 1.27)
+2025-03-26 10:07:43,107 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611617305
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0120, -0.0220, 0.6601)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.26, 1.21)
+2025-03-26 10:07:43,107 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611633972
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0120, -0.0222, 0.6600)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.56, -1.51, 1.28)
+2025-03-26 10:07:43,137 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611650639
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7509, -0.0120, -0.0223, 0.6600)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.46, -1.35, 1.27)
+2025-03-26 10:07:43,138 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611667306
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7509, -0.0120, -0.0225, 0.6599)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.07, 1.31)
+2025-03-26 10:07:43,166 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611683973
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7509, -0.0121, -0.0226, 0.6599)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.33, 1.38)
+2025-03-26 10:07:43,166 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611700640
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7510, -0.0121, -0.0228, 0.6598)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.46, -1.51, 1.21)
+2025-03-26 10:07:43,196 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611717307
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7510, -0.0121, -0.0229, 0.6598)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.53, 1.29)
+2025-03-26 10:07:43,225 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611733974
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7510, -0.0121, -0.0231, 0.6598)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.35, 1.22)
+2025-03-26 10:07:43,226 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611750641
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7511, -0.0121, -0.0232, 0.6597)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.20, 1.30)
+2025-03-26 10:07:43,256 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611767308
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7511, -0.0122, -0.0233, 0.6597)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.56, -1.25, 1.27)
+2025-03-26 10:07:43,257 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611783975
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7512, -0.0122, -0.0234, 0.6596)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.25, 1.21)
+2025-03-26 10:07:43,286 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611800642
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7512, -0.0122, -0.0236, 0.6595)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.68, -1.29, 1.23)
+2025-03-26 10:07:43,286 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611817309
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7512, -0.0123, -0.0237, 0.6595)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.70, -1.26, 1.28)
+2025-03-26 10:07:43,316 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611833976
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7513, -0.0123, -0.0238, 0.6594)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.67, -1.22, 1.30)
+2025-03-26 10:07:43,318 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611850643
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7513, -0.0123, -0.0239, 0.6594)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.66, -1.23, 1.25)
+2025-03-26 10:07:43,348 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611867310
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7513, -0.0124, -0.0240, 0.6594)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.22, 1.22)
+2025-03-26 10:07:43,376 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611883977
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7514, -0.0124, -0.0241, 0.6593)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.20, 1.25)
+2025-03-26 10:07:43,377 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611900644
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7514, -0.0124, -0.0243, 0.6593)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.57, -1.33, 1.26)
+2025-03-26 10:07:43,407 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611917311
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7515, -0.0124, -0.0244, 0.6592)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.47, -1.49, 1.32)
+2025-03-26 10:07:43,408 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611933978
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7515, -0.0124, -0.0245, 0.6592)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.53, -1.43, 1.32)
+2025-03-26 10:07:43,437 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611950645
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7515, -0.0124, -0.0246, 0.6591)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.54, -1.36, 1.29)
+2025-03-26 10:07:43,438 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611967312
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7516, -0.0125, -0.0247, 0.6590)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.57, -1.30, 1.26)
+2025-03-26 10:07:43,467 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 611983979
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7517, -0.0125, -0.0248, 0.6590)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.26, 1.24)
+2025-03-26 10:07:43,468 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612000646
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7517, -0.0125, -0.0249, 0.6589)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.25, 1.22)
+2025-03-26 10:07:43,496 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612017313
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7518, -0.0125, -0.0250, 0.6588)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.66, -1.33, 1.24)
+2025-03-26 10:07:43,525 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612033980
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7518, -0.0126, -0.0251, 0.6588)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.25, 1.24)
+2025-03-26 10:07:43,526 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612050647
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7519, -0.0126, -0.0252, 0.6587)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.13, 1.22)
+2025-03-26 10:07:43,556 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612067314
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7520, -0.0126, -0.0252, 0.6586)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.15, 1.25)
+2025-03-26 10:07:43,557 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612083981
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7520, -0.0127, -0.0253, 0.6586)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.27, 1.22)
+2025-03-26 10:07:43,587 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612100648
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7521, -0.0127, -0.0254, 0.6585)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.28, 1.15)
+2025-03-26 10:07:43,587 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612117315
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7521, -0.0127, -0.0255, 0.6584)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.26, 1.21)
+2025-03-26 10:07:43,616 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612133982
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7522, -0.0127, -0.0256, 0.6584)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.20, 1.27)
+2025-03-26 10:07:43,616 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612150649
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7522, -0.0128, -0.0256, 0.6583)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.32, 1.23)
+2025-03-26 10:07:43,647 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612167316
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7523, -0.0127, -0.0257, 0.6582)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.52, -1.49, 1.25)
+2025-03-26 10:07:43,678 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612183983
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7523, -0.0128, -0.0258, 0.6582)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.36, 1.22)
+2025-03-26 10:07:43,678 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612200650
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7524, -0.0128, -0.0259, 0.6581)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.22, 1.28)
+2025-03-26 10:07:43,707 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612217317
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7525, -0.0128, -0.0259, 0.6580)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.37, 1.23)
+2025-03-26 10:07:43,707 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612233984
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7525, -0.0128, -0.0260, 0.6579)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.68, -1.42, 1.30)
+2025-03-26 10:07:43,737 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612250651
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7525, -0.0128, -0.0261, 0.6579)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.57, -1.38, 1.30)
+2025-03-26 10:07:43,738 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612267318
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7526, -0.0128, -0.0262, 0.6578)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.29, 1.24)
+2025-03-26 10:07:43,767 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612283985
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7527, -0.0129, -0.0262, 0.6578)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.76, -1.25, 1.31)
+2025-03-26 10:07:43,768 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612300652
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7527, -0.0129, -0.0263, 0.6577)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.14, 1.24)
+2025-03-26 10:07:43,797 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612317319
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7528, -0.0129, -0.0263, 0.6576)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.72, -1.14, 1.24)
+2025-03-26 10:07:43,827 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612333986
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7529, -0.0130, -0.0264, 0.6575)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.67, -1.23, 1.25)
+2025-03-26 10:07:43,827 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612350653
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7529, -0.0130, -0.0264, 0.6574)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.67, -1.28, 1.23)
+2025-03-26 10:07:43,857 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612367320
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7530, -0.0130, -0.0265, 0.6574)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.28, 1.19)
+2025-03-26 10:07:43,858 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612383987
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7531, -0.0130, -0.0265, 0.6573)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.20, 1.20)
+2025-03-26 10:07:43,888 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612400654
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7531, -0.0130, -0.0265, 0.6572)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.29, 1.23)
+2025-03-26 10:07:43,888 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612417321
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7532, -0.0130, -0.0266, 0.6571)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.54, -1.45, 1.24)
+2025-03-26 10:07:43,916 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612433988
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7532, -0.0130, -0.0266, 0.6571)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.50, -1.39, 1.27)
+2025-03-26 10:07:43,917 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612450655
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7533, -0.0130, -0.0267, 0.6570)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.38, 1.20)
+2025-03-26 10:07:43,946 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612467322
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7534, -0.0130, -0.0267, 0.6569)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.23, 1.24)
+2025-03-26 10:07:43,976 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612483989
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7535, -0.0130, -0.0267, 0.6568)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.26, 1.18)
+2025-03-26 10:07:43,976 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612500656
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7536, -0.0131, -0.0267, 0.6567)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.70, -1.33, 1.24)
+2025-03-26 10:07:44,005 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612517323
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7536, -0.0131, -0.0268, 0.6566)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.37, 1.30)
+2025-03-26 10:07:44,006 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612533990
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7537, -0.0131, -0.0268, 0.6565)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.67, -1.22, 1.26)
+2025-03-26 10:07:44,035 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612550657
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7538, -0.0131, -0.0268, 0.6565)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.16, 1.23)
+2025-03-26 10:07:44,036 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612567324
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7538, -0.0131, -0.0268, 0.6564)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.69, -1.28, 1.27)
+2025-03-26 10:07:44,066 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612583991
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7539, -0.0131, -0.0268, 0.6563)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.66, -1.30, 1.25)
+2025-03-26 10:07:44,066 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612600658
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7540, -0.0131, -0.0269, 0.6562)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.53, -1.34, 1.28)
+2025-03-26 10:07:44,095 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612617325
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7540, -0.0131, -0.0269, 0.6561)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.56, -1.25, 1.24)
+2025-03-26 10:07:44,125 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612633992
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7541, -0.0131, -0.0269, 0.6560)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.54, -1.45, 1.26)
+2025-03-26 10:07:44,126 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612650659
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7542, -0.0131, -0.0269, 0.6560)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.54, -1.30, 1.20)
+2025-03-26 10:07:44,155 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612667326
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7543, -0.0131, -0.0269, 0.6559)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.25, 1.23)
+2025-03-26 10:07:44,157 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612683993
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7543, -0.0131, -0.0269, 0.6558)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.50, -1.42, 1.25)
+2025-03-26 10:07:44,187 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612700660
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7544, -0.0131, -0.0269, 0.6557)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.33, 1.18)
+2025-03-26 10:07:44,188 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612717327
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7545, -0.0131, -0.0269, 0.6556)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.57, -1.36, 1.26)
+2025-03-26 10:07:44,217 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612733994
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7546, -0.0131, -0.0269, 0.6556)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.28, 1.21)
+2025-03-26 10:07:44,218 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612750661
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7546, -0.0131, -0.0269, 0.6555)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.18, 1.25)
+2025-03-26 10:07:44,248 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612767328
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7547, -0.0131, -0.0268, 0.6554)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.67, -1.20, 1.22)
+2025-03-26 10:07:44,278 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612783995
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7548, -0.0131, -0.0268, 0.6553)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.41, 1.27)
+2025-03-26 10:07:44,278 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612800662
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7549, -0.0131, -0.0268, 0.6552)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.70, -1.36, 1.18)
+2025-03-26 10:07:44,307 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612817329
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7549, -0.0132, -0.0268, 0.6551)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.11, 1.18)
+2025-03-26 10:07:44,308 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612833996
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7550, -0.0132, -0.0268, 0.6551)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.15, 1.25)
+2025-03-26 10:07:44,338 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612850663
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7551, -0.0132, -0.0268, 0.6550)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.40, 1.19)
+2025-03-26 10:07:44,338 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612867330
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7552, -0.0131, -0.0268, 0.6549)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.52, -1.59, 1.23)
+2025-03-26 10:07:44,367 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612883997
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7552, -0.0131, -0.0267, 0.6548)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.26, 1.28)
+2025-03-26 10:07:44,368 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612900664
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7553, -0.0131, -0.0267, 0.6547)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.66, -1.16, 1.30)
+2025-03-26 10:07:44,398 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612917331
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7554, -0.0131, -0.0267, 0.6546)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.31, 1.23)
+2025-03-26 10:07:44,427 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612933998
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7554, -0.0131, -0.0266, 0.6545)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.21, 1.26)
+2025-03-26 10:07:44,427 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612950665
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7555, -0.0131, -0.0266, 0.6544)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.69, -1.35, 1.22)
+2025-03-26 10:07:44,456 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612967332
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7556, -0.0131, -0.0266, 0.6544)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.70, -1.37, 1.30)
+2025-03-26 10:07:44,456 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 612983999
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7557, -0.0131, -0.0266, 0.6543)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.25, 1.24)
+2025-03-26 10:07:44,485 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613000666
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7557, -0.0132, -0.0265, 0.6542)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.67, -1.12, 1.27)
+2025-03-26 10:07:44,486 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613017333
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7558, -0.0132, -0.0265, 0.6541)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.27, 1.28)
+2025-03-26 10:07:44,517 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613034000
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7559, -0.0132, -0.0265, 0.6541)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.32, 1.26)
+2025-03-26 10:07:44,517 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613050667
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7559, -0.0131, -0.0264, 0.6540)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.60, 1.19)
+2025-03-26 10:07:44,545 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613067334
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7560, -0.0131, -0.0264, 0.6539)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.52, -1.47, 1.24)
+2025-03-26 10:07:44,577 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613084001
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7561, -0.0131, -0.0264, 0.6538)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.20, 1.26)
+2025-03-26 10:07:44,577 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613100668
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7561, -0.0131, -0.0263, 0.6537)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.06, 1.15)
+2025-03-26 10:07:44,607 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613117335
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7562, -0.0131, -0.0263, 0.6537)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.39, 1.19)
+2025-03-26 10:07:44,608 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613134002
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7563, -0.0131, -0.0262, 0.6536)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.49, 1.21)
+2025-03-26 10:07:44,638 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613150669
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7563, -0.0131, -0.0262, 0.6535)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.70, -1.31, 1.22)
+2025-03-26 10:07:44,638 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613167336
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7564, -0.0131, -0.0261, 0.6535)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.77, -1.18, 1.28)
+2025-03-26 10:07:44,667 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613184003
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7565, -0.0131, -0.0261, 0.6534)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.71, -1.13, 1.24)
+2025-03-26 10:07:44,667 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613200670
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7565, -0.0131, -0.0260, 0.6533)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.14, 1.21)
+2025-03-26 10:07:44,696 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613217337
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7566, -0.0131, -0.0260, 0.6533)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.66, -1.34, 1.22)
+2025-03-26 10:07:44,728 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613234004
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7566, -0.0131, -0.0259, 0.6532)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.48, 1.20)
+2025-03-26 10:07:44,728 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613250671
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7567, -0.0131, -0.0259, 0.6531)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.36, 1.26)
+2025-03-26 10:07:44,757 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613267338
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7567, -0.0131, -0.0258, 0.6531)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.56, -1.22, 1.26)
+2025-03-26 10:07:44,758 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613284005
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7568, -0.0130, -0.0258, 0.6530)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.32, 1.28)
+2025-03-26 10:07:44,788 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613300672
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7569, -0.0130, -0.0257, 0.6529)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.51, 1.19)
+2025-03-26 10:07:44,788 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613317339
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7569, -0.0130, -0.0257, 0.6528)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.49, -1.47, 1.22)
+2025-03-26 10:07:44,817 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613334006
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7570, -0.0130, -0.0256, 0.6528)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.66, -1.18, 1.27)
+2025-03-26 10:07:44,818 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613350673
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7571, -0.0130, -0.0255, 0.6527)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.67, -1.18, 1.24)
+2025-03-26 10:07:44,848 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613367340
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7571, -0.0130, -0.0255, 0.6527)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.18, 1.20)
+2025-03-26 10:07:44,877 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613384007
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7571, -0.0130, -0.0254, 0.6526)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.75, -1.20, 1.25)
+2025-03-26 10:07:44,880 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613400674
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7572, -0.0130, -0.0253, 0.6526)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.70, -1.31, 1.28)
+2025-03-26 10:07:44,908 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613417341
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7572, -0.0130, -0.0253, 0.6525)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.67, -1.49, 1.18)
+2025-03-26 10:07:44,908 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613434008
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7572, -0.0130, -0.0252, 0.6525)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.11, 1.30)
+2025-03-26 10:07:44,936 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613450675
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7573, -0.0130, -0.0251, 0.6525)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.06, 1.28)
+2025-03-26 10:07:44,936 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613467342
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7573, -0.0130, -0.0251, 0.6524)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.69, -1.19, 1.30)
+2025-03-26 10:07:44,965 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613484009
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7574, -0.0130, -0.0250, 0.6524)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.19, 1.31)
+2025-03-26 10:07:44,966 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613500676
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7574, -0.0130, -0.0249, 0.6523)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.31, 1.19)
+2025-03-26 10:07:44,995 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613517343
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7575, -0.0129, -0.0248, 0.6523)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.48, 1.29)
+2025-03-26 10:07:45,025 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613534010
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7575, -0.0129, -0.0248, 0.6522)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.40, -1.40, 1.29)
+2025-03-26 10:07:45,026 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613550677
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7575, -0.0128, -0.0247, 0.6522)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.50, -1.27, 1.25)
+2025-03-26 10:07:45,055 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613567344
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7575, -0.0128, -0.0246, 0.6522)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.32, 1.29)
+2025-03-26 10:07:45,056 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613584011
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7576, -0.0128, -0.0246, 0.6521)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.53, 1.19)
+2025-03-26 10:07:45,087 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613600678
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7577, -0.0128, -0.0245, 0.6521)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.54, -1.47, 1.18)
+2025-03-26 10:07:45,088 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613617345
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7577, -0.0127, -0.0244, 0.6521)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.26, 1.22)
+2025-03-26 10:07:45,118 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613634012
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7577, -0.0128, -0.0243, 0.6520)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.01, 1.26)
+2025-03-26 10:07:45,118 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613650679
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7577, -0.0128, -0.0242, 0.6520)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.06, 1.24)
+2025-03-26 10:07:45,147 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613667346
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7577, -0.0128, -0.0242, 0.6520)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.77, -1.37, 1.27)
+2025-03-26 10:07:45,177 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613684013
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7578, -0.0127, -0.0241, 0.6520)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.28, 1.25)
+2025-03-26 10:07:45,177 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613700680
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7578, -0.0127, -0.0240, 0.6519)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.69, -1.19, 1.24)
+2025-03-26 10:07:45,208 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613717347
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7578, -0.0127, -0.0239, 0.6519)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.32, 1.26)
+2025-03-26 10:07:45,208 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613734014
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7578, -0.0127, -0.0238, 0.6519)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.23, 1.22)
+2025-03-26 10:07:45,238 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613750681
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7578, -0.0127, -0.0238, 0.6519)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.18, 1.17)
+2025-03-26 10:07:45,238 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613767348
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7578, -0.0127, -0.0237, 0.6519)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.47, 1.23)
+2025-03-26 10:07:45,266 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613784015
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7579, -0.0126, -0.0236, 0.6519)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.54, 1.21)
+2025-03-26 10:07:45,267 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613800682
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7579, -0.0126, -0.0236, 0.6518)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.52, -1.40, 1.33)
+2025-03-26 10:07:45,297 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613817349
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7579, -0.0126, -0.0235, 0.6518)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.31, 1.25)
+2025-03-26 10:07:45,327 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613834016
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7579, -0.0126, -0.0234, 0.6518)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.19, 1.24)
+2025-03-26 10:07:45,328 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613850683
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7580, -0.0126, -0.0233, 0.6517)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.16, 1.19)
+2025-03-26 10:07:45,356 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613867350
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7580, -0.0125, -0.0232, 0.6517)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.31, 1.33)
+2025-03-26 10:07:45,358 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613884017
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7580, -0.0125, -0.0232, 0.6517)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.74, -1.36, 1.24)
+2025-03-26 10:07:45,385 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613900684
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7580, -0.0125, -0.0231, 0.6517)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.34, 1.24)
+2025-03-26 10:07:45,386 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613917351
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7580, -0.0125, -0.0230, 0.6517)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -0.98, 1.30)
+2025-03-26 10:07:45,415 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613934018
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7581, -0.0125, -0.0229, 0.6517)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.29, 1.30)
+2025-03-26 10:07:45,416 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613950685
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7581, -0.0124, -0.0228, 0.6516)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.49, 1.19)
+2025-03-26 10:07:45,445 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613967352
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7581, -0.0124, -0.0228, 0.6516)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.45, 1.31)
+2025-03-26 10:07:45,477 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 613984019
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7581, -0.0124, -0.0227, 0.6516)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.24, 1.23)
+2025-03-26 10:07:45,477 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614000686
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7581, -0.0124, -0.0226, 0.6516)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.13, 1.28)
+2025-03-26 10:07:45,506 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614017353
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7581, -0.0124, -0.0225, 0.6516)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.13, 1.26)
+2025-03-26 10:07:45,507 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614034020
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7581, -0.0124, -0.0224, 0.6517)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.54, -1.43, 1.31)
+2025-03-26 10:07:45,535 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614050687
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7581, -0.0123, -0.0223, 0.6517)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.48, 1.27)
+2025-03-26 10:07:45,536 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614067354
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7581, -0.0123, -0.0223, 0.6517)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.66, -1.38, 1.22)
+2025-03-26 10:07:45,565 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614084021
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7581, -0.0123, -0.0222, 0.6517)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.27, 1.28)
+2025-03-26 10:07:45,566 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614100688
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7581, -0.0123, -0.0221, 0.6517)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.02, 1.23)
+2025-03-26 10:07:45,595 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614117355
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7581, -0.0123, -0.0220, 0.6517)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.68, -1.03, 1.27)
+2025-03-26 10:07:45,625 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614134022
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7581, -0.0123, -0.0219, 0.6516)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.69, -1.39, 1.20)
+2025-03-26 10:07:45,626 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614150689
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7581, -0.0123, -0.0218, 0.6516)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.35, 1.24)
+2025-03-26 10:07:45,655 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614167356
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7581, -0.0122, -0.0217, 0.6516)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.57, -1.26, 1.25)
+2025-03-26 10:07:45,656 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614184023
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7581, -0.0122, -0.0216, 0.6517)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.53, -1.32, 1.25)
+2025-03-26 10:07:45,687 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614200690
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7581, -0.0122, -0.0216, 0.6517)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.56, -1.51, 1.28)
+2025-03-26 10:07:45,687 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614217357
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7581, -0.0121, -0.0215, 0.6517)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.53, -1.40, 1.25)
+2025-03-26 10:07:45,718 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614234024
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7581, -0.0121, -0.0214, 0.6517)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.37, 1.24)
+2025-03-26 10:07:45,719 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614250691
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7580, -0.0121, -0.0214, 0.6518)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.47, 1.27)
+2025-03-26 10:07:45,749 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614267358
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7580, -0.0120, -0.0213, 0.6518)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.57, -1.30, 1.23)
+2025-03-26 10:07:45,777 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614284025
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7580, -0.0120, -0.0212, 0.6518)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.69, -1.21, 1.31)
+2025-03-26 10:07:45,778 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614300692
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7580, -0.0120, -0.0211, 0.6518)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.74, -1.24, 1.21)
+2025-03-26 10:07:45,807 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614317359
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7580, -0.0120, -0.0210, 0.6518)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.70, -1.14, 1.16)
+2025-03-26 10:07:45,808 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614334026
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7580, -0.0120, -0.0210, 0.6518)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.70, -1.22, 1.29)
+2025-03-26 10:07:45,838 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614350693
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7580, -0.0120, -0.0209, 0.6518)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.73, -1.20, 1.25)
+2025-03-26 10:07:45,839 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614367360
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7580, -0.0120, -0.0208, 0.6518)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.13, 1.27)
+2025-03-26 10:07:45,867 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614384027
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7579, -0.0120, -0.0207, 0.6519)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.23, 1.22)
+2025-03-26 10:07:45,868 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614400694
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7579, -0.0120, -0.0206, 0.6519)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.51, -1.39, 1.25)
+2025-03-26 10:07:45,896 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614417361
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7579, -0.0119, -0.0206, 0.6519)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.46, -1.62, 1.22)
+2025-03-26 10:07:45,925 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614434028
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7579, -0.0118, -0.0205, 0.6519)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.37, -1.45, 1.23)
+2025-03-26 10:07:45,927 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614450695
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7579, -0.0118, -0.0204, 0.6519)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.53, -1.30, 1.18)
+2025-03-26 10:07:45,957 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614467362
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7579, -0.0118, -0.0203, 0.6519)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.57, -1.40, 1.27)
+2025-03-26 10:07:45,957 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614484029
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7579, -0.0117, -0.0202, 0.6520)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.40, 1.25)
+2025-03-26 10:07:45,986 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614500696
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7579, -0.0117, -0.0202, 0.6520)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.39, 1.23)
+2025-03-26 10:07:45,986 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614517363
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7578, -0.0117, -0.0201, 0.6520)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.71, -1.25, 1.24)
+2025-03-26 10:07:46,015 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614534030
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7578, -0.0117, -0.0200, 0.6521)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.75, -1.04, 1.27)
+2025-03-26 10:07:46,017 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614550697
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7578, -0.0117, -0.0199, 0.6521)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.75, -1.00, 1.25)
+2025-03-26 10:07:46,048 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614567364
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7578, -0.0117, -0.0198, 0.6521)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.74, -1.20, 1.29)
+2025-03-26 10:07:46,077 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614584031
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7577, -0.0117, -0.0198, 0.6522)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.70, -1.29, 1.28)
+2025-03-26 10:07:46,077 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614600698
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7577, -0.0117, -0.0197, 0.6522)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.39, 1.27)
+2025-03-26 10:07:46,107 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614617365
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7577, -0.0117, -0.0196, 0.6522)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.67, -1.29, 1.24)
+2025-03-26 10:07:46,107 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614634032
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7577, -0.0116, -0.0195, 0.6523)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.47, -1.44, 1.24)
+2025-03-26 10:07:46,137 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614650699
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7577, -0.0116, -0.0195, 0.6523)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.51, -1.47, 1.26)
+2025-03-26 10:07:46,138 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614667366
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7577, -0.0115, -0.0194, 0.6522)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.49, -1.49, 1.16)
+2025-03-26 10:07:46,166 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614684033
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7577, -0.0115, -0.0194, 0.6523)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.47, -1.55, 1.22)
+2025-03-26 10:07:46,166 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614700700
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7577, -0.0115, -0.0193, 0.6523)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.46, -1.28, 1.22)
+2025-03-26 10:07:46,195 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614717367
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7576, -0.0114, -0.0192, 0.6523)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.66, -1.25, 1.25)
+2025-03-26 10:07:46,226 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614734034
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7576, -0.0114, -0.0191, 0.6523)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.70, -1.28, 1.22)
+2025-03-26 10:07:46,227 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614750701
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7576, -0.0114, -0.0190, 0.6523)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.33, 1.26)
+2025-03-26 10:07:46,256 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614767368
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7576, -0.0114, -0.0190, 0.6523)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.72, -1.09, 1.27)
+2025-03-26 10:07:46,257 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614784035
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7576, -0.0114, -0.0189, 0.6524)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.22, 1.23)
+2025-03-26 10:07:46,286 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614800702
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7576, -0.0114, -0.0188, 0.6524)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.21, 1.26)
+2025-03-26 10:07:46,287 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614817369
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7575, -0.0114, -0.0187, 0.6524)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.24, 1.26)
+2025-03-26 10:07:46,318 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614834036
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7575, -0.0114, -0.0186, 0.6525)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.23, 1.27)
+2025-03-26 10:07:46,319 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614850703
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7575, -0.0114, -0.0186, 0.6525)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.36, 1.21)
+2025-03-26 10:07:46,348 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614867370
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7574, -0.0113, -0.0185, 0.6526)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.52, -1.38, 1.33)
+2025-03-26 10:07:46,377 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614884037
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7574, -0.0113, -0.0184, 0.6526)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.57, -1.29, 1.18)
+2025-03-26 10:07:46,378 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614900704
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7574, -0.0113, -0.0183, 0.6526)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.31, 1.25)
+2025-03-26 10:07:46,408 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614917371
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7573, -0.0112, -0.0183, 0.6527)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.49, -1.45, 1.23)
+2025-03-26 10:07:46,409 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614934038
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7573, -0.0112, -0.0182, 0.6527)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.57, -1.38, 1.19)
+2025-03-26 10:07:46,437 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614950705
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7573, -0.0112, -0.0181, 0.6528)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.40, 1.24)
+2025-03-26 10:07:46,437 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614967372
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7572, -0.0111, -0.0181, 0.6528)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.25, 1.26)
+2025-03-26 10:07:46,465 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 614984039
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7572, -0.0111, -0.0180, 0.6528)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.30, 1.23)
+2025-03-26 10:07:46,466 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615000706
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7572, -0.0111, -0.0179, 0.6528)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.71, -1.24, 1.32)
+2025-03-26 10:07:46,496 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615017373
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7572, -0.0111, -0.0179, 0.6529)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.68, -1.16, 1.22)
+2025-03-26 10:07:46,525 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615034040
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7572, -0.0111, -0.0178, 0.6529)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.80, -1.20, 1.27)
+2025-03-26 10:07:46,527 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615050707
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7572, -0.0111, -0.0177, 0.6529)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.25, 1.22)
+2025-03-26 10:07:46,557 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615067374
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7571, -0.0111, -0.0176, 0.6529)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.25, 1.33)
+2025-03-26 10:07:46,558 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615084041
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7571, -0.0111, -0.0176, 0.6530)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.28, 1.18)
+2025-03-26 10:07:46,588 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615100708
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7571, -0.0111, -0.0175, 0.6530)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.53, -1.38, 1.26)
+2025-03-26 10:07:46,589 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615117375
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7570, -0.0110, -0.0175, 0.6531)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.48, -1.45, 1.24)
+2025-03-26 10:07:46,618 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615134042
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7570, -0.0110, -0.0174, 0.6531)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.51, -1.49, 1.24)
+2025-03-26 10:07:46,619 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615150709
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7569, -0.0109, -0.0173, 0.6532)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.47, -1.45, 1.29)
+2025-03-26 10:07:46,649 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615167376
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7569, -0.0109, -0.0173, 0.6532)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.56, -1.37, 1.20)
+2025-03-26 10:07:46,678 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615184043
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7569, -0.0109, -0.0172, 0.6532)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.25, 1.26)
+2025-03-26 10:07:46,679 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615200710
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7569, -0.0109, -0.0171, 0.6532)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.69, -1.21, 1.32)
+2025-03-26 10:07:46,708 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615217377
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7569, -0.0108, -0.0171, 0.6532)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.69, -1.32, 1.26)
+2025-03-26 10:07:46,708 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615234044
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7568, -0.0108, -0.0170, 0.6533)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.42, 1.25)
+2025-03-26 10:07:46,738 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615250711
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7568, -0.0108, -0.0169, 0.6533)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.08, 1.28)
+2025-03-26 10:07:46,738 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615267378
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7568, -0.0108, -0.0168, 0.6534)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.68, -0.98, 1.28)
+2025-03-26 10:07:46,767 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615284045
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7567, -0.0108, -0.0168, 0.6534)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.18, 1.19)
+2025-03-26 10:07:46,768 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615300712
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7567, -0.0108, -0.0167, 0.6535)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.68, -1.37, 1.24)
+2025-03-26 10:07:46,798 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615317379
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7567, -0.0108, -0.0167, 0.6534)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.57, -1.47, 1.26)
+2025-03-26 10:07:46,828 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615334046
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7567, -0.0107, -0.0166, 0.6535)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.50, -1.44, 1.21)
+2025-03-26 10:07:46,829 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615350713
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7566, -0.0107, -0.0165, 0.6535)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.56, -1.25, 1.26)
+2025-03-26 10:07:46,857 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615367380
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7566, -0.0107, -0.0165, 0.6535)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.34, 1.24)
+2025-03-26 10:07:46,857 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615384047
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7566, -0.0106, -0.0164, 0.6536)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.49, -1.48, 1.18)
+2025-03-26 10:07:46,888 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615400714
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7566, -0.0106, -0.0164, 0.6536)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.51, -1.46, 1.23)
+2025-03-26 10:07:46,889 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615417381
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7566, -0.0106, -0.0163, 0.6536)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.28, 1.25)
+2025-03-26 10:07:46,918 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615434048
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7566, -0.0106, -0.0162, 0.6536)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.66, -1.16, 1.31)
+2025-03-26 10:07:46,918 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615450715
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7565, -0.0106, -0.0162, 0.6537)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.71, -1.09, 1.23)
+2025-03-26 10:07:46,948 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615467382
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7565, -0.0106, -0.0161, 0.6537)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.69, -1.01, 1.21)
+2025-03-26 10:07:46,975 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615484049
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7565, -0.0106, -0.0160, 0.6537)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.68, -1.24, 1.28)
+2025-03-26 10:07:46,979 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615500716
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7564, -0.0106, -0.0160, 0.6538)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.42, 1.30)
+2025-03-26 10:07:47,008 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615517383
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7564, -0.0106, -0.0159, 0.6539)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.57, -1.28, 1.28)
+2025-03-26 10:07:47,008 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615534050
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7563, -0.0106, -0.0158, 0.6539)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.70, -1.13, 1.23)
+2025-03-26 10:07:47,038 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615550717
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7563, -0.0106, -0.0158, 0.6540)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.52, -1.27, 1.24)
+2025-03-26 10:07:47,038 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615567384
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7562, -0.0105, -0.0157, 0.6540)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.52, -1.57, 1.24)
+2025-03-26 10:07:47,066 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615584051
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7562, -0.0105, -0.0157, 0.6541)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.54, -1.57, 1.25)
+2025-03-26 10:07:47,066 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615600718
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7561, -0.0104, -0.0157, 0.6541)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.50, 1.21)
+2025-03-26 10:07:47,096 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615617385
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7561, -0.0104, -0.0156, 0.6542)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.51, -1.36, 1.28)
+2025-03-26 10:07:47,125 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615634052
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7561, -0.0104, -0.0155, 0.6542)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.57, -1.16, 1.28)
+2025-03-26 10:07:47,126 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615650719
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7560, -0.0104, -0.0154, 0.6543)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.67, -1.10, 1.28)
+2025-03-26 10:07:47,155 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615667386
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7560, -0.0104, -0.0154, 0.6543)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.39, 1.26)
+2025-03-26 10:07:47,156 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615684053
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7560, -0.0103, -0.0154, 0.6544)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.67, -1.45, 1.26)
+2025-03-26 10:07:47,185 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615700720
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7559, -0.0103, -0.0153, 0.6544)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.69, -1.15, 1.26)
+2025-03-26 10:07:47,186 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615717387
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7559, -0.0104, -0.0152, 0.6544)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -0.99, 1.26)
+2025-03-26 10:07:47,215 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615734054
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7559, -0.0104, -0.0152, 0.6545)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.75, -1.11, 1.19)
+2025-03-26 10:07:47,216 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615750721
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7558, -0.0104, -0.0151, 0.6545)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.69, -1.41, 1.22)
+2025-03-26 10:07:47,246 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615767388
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7558, -0.0103, -0.0151, 0.6546)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.30, 1.25)
+2025-03-26 10:07:47,277 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615784055
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7557, -0.0103, -0.0150, 0.6546)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.44, 1.29)
+2025-03-26 10:07:47,277 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615800722
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7557, -0.0103, -0.0150, 0.6547)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.53, -1.42, 1.20)
+2025-03-26 10:07:47,306 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615817389
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7556, -0.0103, -0.0149, 0.6547)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.26, 1.28)
+2025-03-26 10:07:47,307 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615834056
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7556, -0.0102, -0.0149, 0.6548)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.27, 1.23)
+2025-03-26 10:07:47,336 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615850723
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7556, -0.0102, -0.0148, 0.6548)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.44, 1.23)
+2025-03-26 10:07:47,337 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615867390
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7555, -0.0102, -0.0148, 0.6549)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.53, 1.25)
+2025-03-26 10:07:47,367 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615884057
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7555, -0.0101, -0.0147, 0.6549)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.32, 1.24)
+2025-03-26 10:07:47,368 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615900724
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7555, -0.0102, -0.0147, 0.6550)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.11, 1.26)
+2025-03-26 10:07:47,397 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615917391
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7555, -0.0102, -0.0146, 0.6549)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.69, -1.07, 1.21)
+2025-03-26 10:07:47,428 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615934058
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7554, -0.0102, -0.0145, 0.6550)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.69, -1.21, 1.23)
+2025-03-26 10:07:47,429 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615950725
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7554, -0.0102, -0.0145, 0.6550)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.69, -1.35, 1.24)
+2025-03-26 10:07:47,457 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615967392
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7554, -0.0102, -0.0144, 0.6551)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.13, 1.28)
+2025-03-26 10:07:47,457 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 615984059
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7554, -0.0102, -0.0144, 0.6551)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.13, 1.30)
+2025-03-26 10:07:47,488 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616000726
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7553, -0.0101, -0.0143, 0.6551)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.32, 1.22)
+2025-03-26 10:07:47,489 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616017393
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7554, -0.0101, -0.0143, 0.6551)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.52, -1.38, 1.22)
+2025-03-26 10:07:47,517 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616034060
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7553, -0.0101, -0.0142, 0.6551)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.53, -1.31, 1.34)
+2025-03-26 10:07:47,518 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616050727
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7553, -0.0101, -0.0142, 0.6552)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.50, -1.36, 1.23)
+2025-03-26 10:07:47,549 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616067394
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7553, -0.0100, -0.0141, 0.6552)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.46, -1.50, 1.26)
+2025-03-26 10:07:47,578 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616084061
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7552, -0.0100, -0.0141, 0.6553)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.47, -1.39, 1.34)
+2025-03-26 10:07:47,578 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616100728
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7551, -0.0099, -0.0140, 0.6553)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.37, 1.32)
+2025-03-26 10:07:47,608 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616117395
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7551, -0.0099, -0.0140, 0.6553)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.31, 1.19)
+2025-03-26 10:07:47,608 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616134062
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7551, -0.0099, -0.0139, 0.6554)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.24, 1.25)
+2025-03-26 10:07:47,638 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616150729
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7551, -0.0099, -0.0139, 0.6554)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.21, 1.24)
+2025-03-26 10:07:47,638 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616167396
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7550, -0.0099, -0.0138, 0.6555)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.69, -1.17, 1.16)
+2025-03-26 10:07:47,667 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616184063
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7550, -0.0099, -0.0138, 0.6555)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.70, -1.35, 1.23)
+2025-03-26 10:07:47,668 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616200730
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7549, -0.0099, -0.0138, 0.6556)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.67, -1.27, 1.29)
+2025-03-26 10:07:47,698 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616217397
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7548, -0.0099, -0.0137, 0.6557)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.15, 1.31)
+2025-03-26 10:07:47,727 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616234064
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7548, -0.0099, -0.0136, 0.6557)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.66, -1.18, 1.22)
+2025-03-26 10:07:47,727 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616250731
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7548, -0.0099, -0.0136, 0.6557)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.23, 1.20)
+2025-03-26 10:07:47,757 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616267398
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7548, -0.0099, -0.0135, 0.6558)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.50, -1.46, 1.25)
+2025-03-26 10:07:47,758 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616284065
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7547, -0.0098, -0.0135, 0.6558)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.40, 1.31)
+2025-03-26 10:07:47,788 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616300732
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7547, -0.0098, -0.0135, 0.6558)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.49, -1.49, 1.16)
+2025-03-26 10:07:47,789 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616317399
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7547, -0.0098, -0.0134, 0.6558)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.48, -1.34, 1.26)
+2025-03-26 10:07:47,817 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616334066
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7547, -0.0098, -0.0134, 0.6558)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.23, 1.20)
+2025-03-26 10:07:47,817 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616350733
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7547, -0.0097, -0.0133, 0.6559)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.31, 1.28)
+2025-03-26 10:07:47,849 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616367400
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7546, -0.0097, -0.0133, 0.6560)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.39, 1.21)
+2025-03-26 10:07:47,876 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616384067
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7546, -0.0097, -0.0133, 0.6560)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.69, -1.38, 1.22)
+2025-03-26 10:07:47,877 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616400734
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7545, -0.0097, -0.0132, 0.6560)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.67, -1.10, 1.27)
+2025-03-26 10:07:47,906 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616417401
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7545, -0.0098, -0.0131, 0.6560)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.72, -1.00, 1.20)
+2025-03-26 10:07:47,907 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616434068
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7545, -0.0098, -0.0131, 0.6561)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.66, -1.13, 1.20)
+2025-03-26 10:07:47,935 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616450735
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7544, -0.0098, -0.0131, 0.6562)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.66, -1.30, 1.25)
+2025-03-26 10:07:47,937 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616467402
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7544, -0.0097, -0.0130, 0.6562)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.68, -1.35, 1.29)
+2025-03-26 10:07:47,967 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616484069
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7544, -0.0097, -0.0130, 0.6562)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.54, -1.28, 1.27)
+2025-03-26 10:07:47,967 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616500736
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7543, -0.0097, -0.0129, 0.6563)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.35, 1.28)
+2025-03-26 10:07:47,997 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616517403
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7543, -0.0097, -0.0129, 0.6563)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.51, -1.37, 1.22)
+2025-03-26 10:07:48,026 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616534070
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7542, -0.0097, -0.0129, 0.6564)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.37, 1.21)
+2025-03-26 10:07:48,026 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616550737
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7542, -0.0096, -0.0128, 0.6565)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.45, 1.31)
+2025-03-26 10:07:48,055 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616567404
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7541, -0.0096, -0.0128, 0.6565)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.52, -1.45, 1.22)
+2025-03-26 10:07:48,056 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616584071
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7541, -0.0096, -0.0128, 0.6566)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.31, 1.27)
+2025-03-26 10:07:48,085 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616600738
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7540, -0.0096, -0.0127, 0.6567)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.20, 1.28)
+2025-03-26 10:07:48,087 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616617405
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7540, -0.0096, -0.0127, 0.6567)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.71, -1.10, 1.32)
+2025-03-26 10:07:48,118 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616634072
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7539, -0.0096, -0.0126, 0.6567)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.71, -1.27, 1.27)
+2025-03-26 10:07:48,118 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616650739
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7539, -0.0096, -0.0126, 0.6568)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.69, -1.28, 1.33)
+2025-03-26 10:07:48,146 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616667406
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7538, -0.0096, -0.0126, 0.6569)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.35, 1.25)
+2025-03-26 10:07:48,176 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616684073
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7538, -0.0096, -0.0125, 0.6569)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.69, -1.18, 1.20)
+2025-03-26 10:07:48,176 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616700740
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7538, -0.0096, -0.0125, 0.6569)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.25, 1.29)
+2025-03-26 10:07:48,208 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616717407
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7537, -0.0095, -0.0124, 0.6570)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.56, -1.33, 1.24)
+2025-03-26 10:07:48,208 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616734074
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7537, -0.0095, -0.0124, 0.6570)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.40, 1.28)
+2025-03-26 10:07:48,238 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616750741
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7537, -0.0095, -0.0124, 0.6570)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.41, 1.22)
+2025-03-26 10:07:48,238 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616767408
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7537, -0.0095, -0.0123, 0.6571)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.42, 1.25)
+2025-03-26 10:07:48,267 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616784075
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7536, -0.0095, -0.0123, 0.6571)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.13, 1.21)
+2025-03-26 10:07:48,267 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616800742
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7536, -0.0095, -0.0123, 0.6572)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.36, 1.25)
+2025-03-26 10:07:48,298 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616817409
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7536, -0.0094, -0.0122, 0.6572)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.56, -1.46, 1.14)
+2025-03-26 10:07:48,328 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616834076
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7536, -0.0094, -0.0122, 0.6572)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.43, 1.26)
+2025-03-26 10:07:48,328 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616850743
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7535, -0.0094, -0.0122, 0.6572)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.54, -1.29, 1.29)
+2025-03-26 10:07:48,357 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616867410
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7535, -0.0094, -0.0121, 0.6572)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.15, 1.32)
+2025-03-26 10:07:48,357 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616884077
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7534, -0.0094, -0.0121, 0.6573)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.67, -1.05, 1.22)
+2025-03-26 10:07:48,388 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616900744
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7534, -0.0094, -0.0120, 0.6574)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.81, -1.15, 1.29)
+2025-03-26 10:07:48,389 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616917411
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7534, -0.0094, -0.0120, 0.6574)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.32, 1.25)
+2025-03-26 10:07:48,417 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616934078
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7534, -0.0094, -0.0120, 0.6573)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.42, 1.27)
+2025-03-26 10:07:48,418 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616950745
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7535, -0.0094, -0.0119, 0.6573)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.30, 1.21)
+2025-03-26 10:07:48,447 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616967412
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7535, -0.0094, -0.0119, 0.6573)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.56, -1.32, 1.18)
+2025-03-26 10:07:48,477 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 616984079
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7534, -0.0094, -0.0119, 0.6574)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.24, 1.20)
+2025-03-26 10:07:48,478 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617000746
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7533, -0.0094, -0.0119, 0.6575)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.70, -1.44, 1.30)
+2025-03-26 10:07:48,506 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617017413
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7533, -0.0093, -0.0118, 0.6575)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.47, 1.15)
+2025-03-26 10:07:48,507 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617034080
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7533, -0.0093, -0.0118, 0.6575)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.57, -1.30, 1.25)
+2025-03-26 10:07:48,535 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617050747
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7533, -0.0093, -0.0118, 0.6575)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.57, -1.17, 1.25)
+2025-03-26 10:07:48,537 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617067414
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7532, -0.0093, -0.0117, 0.6576)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.18, 1.32)
+2025-03-26 10:07:48,567 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617084081
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7532, -0.0093, -0.0117, 0.6576)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.57, -1.40, 1.25)
+2025-03-26 10:07:48,567 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617100748
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7532, -0.0093, -0.0117, 0.6576)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.52, -1.35, 1.24)
+2025-03-26 10:07:48,597 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617117415
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7531, -0.0093, -0.0116, 0.6577)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.19, 1.27)
+2025-03-26 10:07:48,627 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617134082
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7531, -0.0093, -0.0116, 0.6577)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.67, -1.18, 1.21)
+2025-03-26 10:07:48,628 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617150749
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7531, -0.0093, -0.0115, 0.6578)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.68, -1.25, 1.22)
+2025-03-26 10:07:48,657 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617167416
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7530, -0.0093, -0.0115, 0.6578)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.30, 1.22)
+2025-03-26 10:07:48,657 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617184083
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7530, -0.0093, -0.0115, 0.6578)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.68, -1.25, 1.24)
+2025-03-26 10:07:48,686 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617200750
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7530, -0.0093, -0.0114, 0.6579)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.16, 1.26)
+2025-03-26 10:07:48,687 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617217417
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7529, -0.0093, -0.0114, 0.6580)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.24, 1.25)
+2025-03-26 10:07:48,718 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617234084
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7529, -0.0093, -0.0113, 0.6579)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.52, -1.17, 1.27)
+2025-03-26 10:07:48,719 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617250751
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7529, -0.0092, -0.0113, 0.6579)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.45, 1.24)
+2025-03-26 10:07:48,748 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617267418
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7528, -0.0092, -0.0113, 0.6580)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.53, -1.55, 1.30)
+2025-03-26 10:07:48,777 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617284085
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7529, -0.0091, -0.0113, 0.6580)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.51, -1.49, 1.24)
+2025-03-26 10:07:48,778 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617300752
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7528, -0.0091, -0.0113, 0.6581)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.54, -1.35, 1.24)
+2025-03-26 10:07:48,807 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617317419
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7528, -0.0091, -0.0112, 0.6581)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.56, -1.24, 1.32)
+2025-03-26 10:07:48,808 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617334086
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7528, -0.0091, -0.0112, 0.6581)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.71, -1.34, 1.22)
+2025-03-26 10:07:48,838 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617350753
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7527, -0.0091, -0.0112, 0.6582)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.72, -1.25, 1.33)
+2025-03-26 10:07:48,839 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617367420
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7527, -0.0091, -0.0111, 0.6582)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.16, 1.24)
+2025-03-26 10:07:48,867 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617384087
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7527, -0.0092, -0.0111, 0.6582)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.72, -1.03, 1.18)
+2025-03-26 10:07:48,868 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617400754
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7527, -0.0092, -0.0111, 0.6582)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.71, -1.14, 1.26)
+2025-03-26 10:07:48,896 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617417421
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7527, -0.0092, -0.0110, 0.6583)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.68, -1.29, 1.21)
+2025-03-26 10:07:48,927 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617434088
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7526, -0.0091, -0.0110, 0.6583)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.34, 1.25)
+2025-03-26 10:07:48,927 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617450755
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7526, -0.0091, -0.0110, 0.6583)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.44, 1.24)
+2025-03-26 10:07:48,956 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617467422
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7526, -0.0091, -0.0110, 0.6583)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.52, -1.33, 1.22)
+2025-03-26 10:07:48,957 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617484089
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7526, -0.0091, -0.0109, 0.6584)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.26, 1.29)
+2025-03-26 10:07:48,987 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617500756
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7525, -0.0091, -0.0109, 0.6584)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.56, -1.44, 1.22)
+2025-03-26 10:07:48,988 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617517423
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7525, -0.0090, -0.0109, 0.6585)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.52, -1.60, 1.20)
+2025-03-26 10:07:49,016 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617534090
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7524, -0.0090, -0.0109, 0.6585)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.37, 1.22)
+2025-03-26 10:07:49,017 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617550757
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7524, -0.0090, -0.0109, 0.6585)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.13, 1.24)
+2025-03-26 10:07:49,048 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617567424
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7524, -0.0090, -0.0108, 0.6585)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.70, -1.03, 1.27)
+2025-03-26 10:07:49,076 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617584091
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7524, -0.0091, -0.0108, 0.6585)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.71, -1.25, 1.32)
+2025-03-26 10:07:49,076 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617600758
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7524, -0.0090, -0.0108, 0.6586)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.43, 1.23)
+2025-03-26 10:07:49,107 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617617425
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7523, -0.0090, -0.0107, 0.6587)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.34, 1.29)
+2025-03-26 10:07:49,107 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617634092
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7523, -0.0090, -0.0107, 0.6587)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.13, 1.25)
+2025-03-26 10:07:49,136 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617650759
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7523, -0.0090, -0.0107, 0.6587)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.66, -1.11, 1.23)
+2025-03-26 10:07:49,136 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617667426
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7523, -0.0090, -0.0106, 0.6587)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.22, 1.23)
+2025-03-26 10:07:49,165 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617684093
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7523, -0.0090, -0.0106, 0.6587)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.54, -1.41, 1.30)
+2025-03-26 10:07:49,166 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617700760
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7523, -0.0090, -0.0106, 0.6587)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.39, 1.17)
+2025-03-26 10:07:49,195 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617717427
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7523, -0.0090, -0.0106, 0.6587)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.41, 1.29)
+2025-03-26 10:07:49,225 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617734094
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7522, -0.0090, -0.0105, 0.6587)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.57, -1.23, 1.24)
+2025-03-26 10:07:49,226 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617750761
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7522, -0.0090, -0.0105, 0.6587)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.35, 1.23)
+2025-03-26 10:07:49,255 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617767428
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7522, -0.0089, -0.0105, 0.6588)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.52, 1.34)
+2025-03-26 10:07:49,256 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617784095
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7522, -0.0089, -0.0105, 0.6588)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.56, -1.30, 1.24)
+2025-03-26 10:07:49,285 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617800762
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7522, -0.0089, -0.0104, 0.6588)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.17, 1.26)
+2025-03-26 10:07:49,287 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617817429
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7522, -0.0089, -0.0104, 0.6588)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.74, -1.18, 1.35)
+2025-03-26 10:07:49,317 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617834096
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7522, -0.0089, -0.0104, 0.6588)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.68, -1.20, 1.22)
+2025-03-26 10:07:49,318 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617850763
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7521, -0.0090, -0.0104, 0.6589)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.69, -1.26, 1.20)
+2025-03-26 10:07:49,349 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617867430
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7521, -0.0089, -0.0103, 0.6589)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.26, 1.19)
+2025-03-26 10:07:49,378 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617884097
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7521, -0.0089, -0.0103, 0.6589)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.69, -1.32, 1.25)
+2025-03-26 10:07:49,378 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617900764
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7521, -0.0089, -0.0103, 0.6589)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.25, 1.25)
+2025-03-26 10:07:49,408 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617917431
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7521, -0.0089, -0.0103, 0.6589)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.48, -1.22, 1.23)
+2025-03-26 10:07:49,408 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617934098
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7521, -0.0089, -0.0102, 0.6590)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.27, 1.20)
+2025-03-26 10:07:49,437 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617950765
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7520, -0.0089, -0.0102, 0.6590)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.55, 1.24)
+2025-03-26 10:07:49,438 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617967432
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7520, -0.0089, -0.0102, 0.6590)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.52, -1.38, 1.24)
+2025-03-26 10:07:49,467 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 617984099
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7520, -0.0089, -0.0102, 0.6590)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.68, -1.19, 1.27)
+2025-03-26 10:07:49,468 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618000766
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7521, -0.0089, -0.0102, 0.6590)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.20, 1.33)
+2025-03-26 10:07:49,498 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618017433
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7520, -0.0089, -0.0101, 0.6590)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.66, -1.18, 1.26)
+2025-03-26 10:07:49,527 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618034100
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7520, -0.0089, -0.0101, 0.6590)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.38, 1.26)
+2025-03-26 10:07:49,528 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618050767
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7521, -0.0089, -0.0101, 0.6590)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.54, -1.41, 1.24)
+2025-03-26 10:07:49,557 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618067434
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7520, -0.0088, -0.0101, 0.6590)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.57, -1.23, 1.19)
+2025-03-26 10:07:49,558 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618084101
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7520, -0.0089, -0.0100, 0.6590)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.04, 1.19)
+2025-03-26 10:07:49,586 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618100768
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7520, -0.0089, -0.0100, 0.6591)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.35, 1.24)
+2025-03-26 10:07:49,587 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618117435
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7519, -0.0088, -0.0100, 0.6591)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.52, -1.39, 1.23)
+2025-03-26 10:07:49,617 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618134102
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7519, -0.0088, -0.0100, 0.6591)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.48, 1.26)
+2025-03-26 10:07:49,618 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618150769
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7519, -0.0088, -0.0100, 0.6591)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.68, -1.32, 1.24)
+2025-03-26 10:07:49,647 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618167436
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7519, -0.0088, -0.0099, 0.6591)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.18, 1.25)
+2025-03-26 10:07:49,678 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618184103
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7519, -0.0088, -0.0099, 0.6591)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.68, -1.21, 1.21)
+2025-03-26 10:07:49,678 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618200770
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7519, -0.0088, -0.0099, 0.6592)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.66, -1.41, 1.22)
+2025-03-26 10:07:49,708 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618217437
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7519, -0.0088, -0.0099, 0.6592)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.31, 1.27)
+2025-03-26 10:07:49,709 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618234104
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7519, -0.0088, -0.0099, 0.6592)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.31, 1.24)
+2025-03-26 10:07:49,737 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618250771
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7519, -0.0088, -0.0098, 0.6592)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.18, 1.26)
+2025-03-26 10:07:49,737 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618267438
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7518, -0.0088, -0.0098, 0.6592)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.27, 1.28)
+2025-03-26 10:07:49,767 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618284105
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7518, -0.0088, -0.0098, 0.6592)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.45, 1.31)
+2025-03-26 10:07:49,768 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618300772
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7518, -0.0088, -0.0098, 0.6593)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.30, 1.28)
+2025-03-26 10:07:49,797 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618317439
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7518, -0.0087, -0.0098, 0.6593)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.51, -1.30, 1.21)
+2025-03-26 10:07:49,827 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618334106
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7517, -0.0087, -0.0097, 0.6593)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.50, -1.33, 1.23)
+2025-03-26 10:07:49,827 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618350773
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7517, -0.0087, -0.0097, 0.6594)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.08, 1.30)
+2025-03-26 10:07:49,855 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618367440
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7517, -0.0087, -0.0097, 0.6594)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.50, 1.24)
+2025-03-26 10:07:49,856 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618384107
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7516, -0.0086, -0.0097, 0.6594)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.44, -1.76, 1.25)
+2025-03-26 10:07:49,886 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618400774
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7516, -0.0086, -0.0097, 0.6595)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.26, 1.28)
+2025-03-26 10:07:49,888 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618417441
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7516, -0.0087, -0.0097, 0.6595)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.75, -1.11, 1.28)
+2025-03-26 10:07:49,916 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618434108
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7516, -0.0087, -0.0096, 0.6595)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.02, 1.22)
+2025-03-26 10:07:49,916 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618450775
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7516, -0.0087, -0.0095, 0.6595)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -0.94, 1.30)
+2025-03-26 10:07:49,947 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618467442
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7516, -0.0087, -0.0096, 0.6595)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.68, -1.64, 1.18)
+2025-03-26 10:07:49,976 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618484109
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7516, -0.0086, -0.0096, 0.6595)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.52, -1.55, 1.25)
+2025-03-26 10:07:49,978 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618500776
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7516, -0.0087, -0.0095, 0.6595)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.71, -1.15, 1.24)
+2025-03-26 10:07:50,007 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618517443
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7516, -0.0087, -0.0095, 0.6595)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.04, 1.22)
+2025-03-26 10:07:50,008 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618534110
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7516, -0.0087, -0.0095, 0.6595)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.68, -1.12, 1.37)
+2025-03-26 10:07:50,037 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618550777
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7516, -0.0087, -0.0095, 0.6595)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.50, -1.57, 1.27)
+2025-03-26 10:07:50,037 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618567444
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7516, -0.0086, -0.0095, 0.6594)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.44, -1.51, 1.27)
+2025-03-26 10:07:50,067 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618584111
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7516, -0.0086, -0.0095, 0.6594)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.57, -1.55, 1.24)
+2025-03-26 10:07:50,067 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618600778
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7516, -0.0086, -0.0095, 0.6595)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.47, 1.23)
+2025-03-26 10:07:50,097 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618617445
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7516, -0.0086, -0.0094, 0.6595)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.04, 1.37)
+2025-03-26 10:07:50,126 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618634112
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7516, -0.0086, -0.0094, 0.6595)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.77, -0.81, 1.28)
+2025-03-26 10:07:50,128 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618650779
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7515, -0.0086, -0.0094, 0.6596)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.69, -1.47, 1.23)
+2025-03-26 10:07:50,157 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618667446
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7515, -0.0086, -0.0094, 0.6596)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.65, 1.18)
+2025-03-26 10:07:50,157 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618684113
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7515, -0.0086, -0.0094, 0.6596)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.73, -1.20, 1.30)
+2025-03-26 10:07:50,187 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618700780
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7515, -0.0086, -0.0093, 0.6597)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.73, -1.00, 1.23)
+2025-03-26 10:07:50,188 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618717447
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7515, -0.0087, -0.0093, 0.6597)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.68, -1.09, 1.28)
+2025-03-26 10:07:50,217 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618734114
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7514, -0.0086, -0.0093, 0.6597)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.33, 1.22)
+2025-03-26 10:07:50,217 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618750781
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7514, -0.0086, -0.0093, 0.6597)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.53, -1.51, 1.25)
+2025-03-26 10:07:50,247 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618767448
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7514, -0.0086, -0.0093, 0.6597)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.49, -1.69, 1.26)
+2025-03-26 10:07:50,277 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618784115
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7514, -0.0085, -0.0093, 0.6598)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.50, -1.43, 1.29)
+2025-03-26 10:07:50,277 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618800782
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7513, -0.0085, -0.0092, 0.6598)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.52, -1.14, 1.35)
+2025-03-26 10:07:50,308 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618817449
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7513, -0.0085, -0.0092, 0.6598)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.10, 1.22)
+2025-03-26 10:07:50,308 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618834116
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7513, -0.0085, -0.0092, 0.6598)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.59, 1.24)
+2025-03-26 10:07:50,337 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618850783
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7513, -0.0085, -0.0092, 0.6599)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.67, -1.62, 1.27)
+2025-03-26 10:07:50,339 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618867450
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7513, -0.0085, -0.0092, 0.6599)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.67, -1.32, 1.26)
+2025-03-26 10:07:50,367 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618884117
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7513, -0.0085, -0.0092, 0.6599)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.67, -0.87, 1.29)
+2025-03-26 10:07:50,368 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618900784
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7513, -0.0086, -0.0091, 0.6599)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.76, -0.86, 1.21)
+2025-03-26 10:07:50,395 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618917451
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7513, -0.0086, -0.0091, 0.6599)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.69, -1.24, 1.23)
+2025-03-26 10:07:50,426 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618934118
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7512, -0.0086, -0.0091, 0.6599)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.41, 1.23)
+2025-03-26 10:07:50,427 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618950785
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7512, -0.0085, -0.0091, 0.6599)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.54, 1.29)
+2025-03-26 10:07:50,457 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618967452
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7512, -0.0085, -0.0091, 0.6599)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.51, -1.28, 1.27)
+2025-03-26 10:07:50,457 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 618984119
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7512, -0.0085, -0.0091, 0.6599)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.57, -1.08, 1.17)
+2025-03-26 10:07:50,488 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619000786
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7512, -0.0085, -0.0090, 0.6600)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.54, -1.31, 1.34)
+2025-03-26 10:07:50,488 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619017453
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7512, -0.0085, -0.0090, 0.6599)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.49, -1.51, 1.22)
+2025-03-26 10:07:50,518 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619034120
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7512, -0.0084, -0.0091, 0.6600)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.51, -1.74, 1.22)
+2025-03-26 10:07:50,518 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619050787
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7511, -0.0084, -0.0091, 0.6600)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.60, 1.29)
+2025-03-26 10:07:50,548 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619067454
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7511, -0.0084, -0.0090, 0.6600)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.67, -1.05, 1.21)
+2025-03-26 10:07:50,578 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619084121
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7511, -0.0085, -0.0090, 0.6600)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.71, -0.79, 1.27)
+2025-03-26 10:07:50,578 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619100788
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7511, -0.0085, -0.0089, 0.6601)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.70, -1.09, 1.22)
+2025-03-26 10:07:50,608 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619117455
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7511, -0.0085, -0.0090, 0.6601)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.68, -1.71, 1.23)
+2025-03-26 10:07:50,609 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619134122
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7510, -0.0084, -0.0090, 0.6601)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.57, -1.59, 1.19)
+2025-03-26 10:07:50,638 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619150789
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7510, -0.0084, -0.0090, 0.6602)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.08, 1.24)
+2025-03-26 10:07:50,639 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619167456
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7510, -0.0085, -0.0089, 0.6602)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.73, -0.73, 1.30)
+2025-03-26 10:07:50,668 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619184123
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7510, -0.0085, -0.0089, 0.6602)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.14, 1.29)
+2025-03-26 10:07:50,669 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619200790
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7510, -0.0085, -0.0089, 0.6602)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.56, -1.73, 1.22)
+2025-03-26 10:07:50,698 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619217457
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7510, -0.0084, -0.0089, 0.6602)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.51, -1.66, 1.23)
+2025-03-26 10:07:50,728 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619234124
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7510, -0.0084, -0.0089, 0.6602)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.49, -1.26, 1.24)
+2025-03-26 10:07:50,729 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619250791
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7510, -0.0084, -0.0088, 0.6602)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.06, 1.28)
+2025-03-26 10:07:50,756 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619267458
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7510, -0.0084, -0.0088, 0.6602)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.13, 1.22)
+2025-03-26 10:07:50,757 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619284125
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7510, -0.0084, -0.0088, 0.6602)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.35, 1.21)
+2025-03-26 10:07:50,787 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619300792
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7510, -0.0084, -0.0088, 0.6602)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.70, 1.18)
+2025-03-26 10:07:50,788 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619317459
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7510, -0.0084, -0.0088, 0.6602)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.50, 1.17)
+2025-03-26 10:07:50,818 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619334126
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7509, -0.0084, -0.0088, 0.6603)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.67, -1.02, 1.22)
+2025-03-26 10:07:50,818 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619350793
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7509, -0.0084, -0.0088, 0.6602)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.81, -0.87, 1.29)
+2025-03-26 10:07:50,849 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619367460
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7509, -0.0085, -0.0087, 0.6603)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.69, -1.26, 1.26)
+2025-03-26 10:07:50,877 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619384127
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7509, -0.0084, -0.0087, 0.6603)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.71, -1.37, 1.22)
+2025-03-26 10:07:50,878 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619400794
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7509, -0.0084, -0.0087, 0.6603)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.69, -1.36, 1.22)
+2025-03-26 10:07:50,907 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619417461
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7509, -0.0084, -0.0087, 0.6603)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.40, 1.21)
+2025-03-26 10:07:50,907 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619434128
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7509, -0.0084, -0.0087, 0.6603)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.21, 1.26)
+2025-03-26 10:07:50,935 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619450795
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0085, -0.0087, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.16, 1.27)
+2025-03-26 10:07:50,936 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619467462
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0084, -0.0087, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.52, -1.34, 1.28)
+2025-03-26 10:07:50,965 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619484129
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0084, -0.0087, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.45, 1.18)
+2025-03-26 10:07:50,966 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619500796
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0084, -0.0087, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.55, -1.55, 1.22)
+2025-03-26 10:07:50,995 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619517463
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0084, -0.0087, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.42, 1.16)
+2025-03-26 10:07:51,025 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619534130
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0084, -0.0087, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.26, 1.28)
+2025-03-26 10:07:51,026 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619550797
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0084, -0.0087, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.63, -1.15, 1.23)
+2025-03-26 10:07:51,055 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619567464
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0084, -0.0086, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.23, 1.27)
+2025-03-26 10:07:51,057 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619584131
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0084, -0.0086, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.64, -1.32, 1.28)
+2025-03-26 10:07:51,086 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619600798
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0084, -0.0086, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.28, 1.24)
+2025-03-26 10:07:51,086 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619617465
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0084, -0.0086, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.15, 1.21)
+2025-03-26 10:07:51,115 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619634132
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0084, -0.0086, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.70, -1.27, 1.21)
+2025-03-26 10:07:51,117 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619650799
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0084, -0.0086, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.68, -1.19, 1.25)
+2025-03-26 10:07:51,148 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619667466
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0084, -0.0086, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.29, 1.26)
+2025-03-26 10:07:51,177 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619684133
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0084, -0.0085, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.40, 1.21)
+2025-03-26 10:07:51,177 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619700800
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0084, -0.0085, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.39, 1.21)
+2025-03-26 10:07:51,206 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619717467
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0084, -0.0085, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.38, 1.23)
+2025-03-26 10:07:51,206 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619734134
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0084, -0.0085, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.29, 1.27)
+2025-03-26 10:07:51,235 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619750801
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0084, -0.0085, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.57, -1.35, 1.25)
+2025-03-26 10:07:51,236 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619767468
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0083, -0.0085, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.60, -1.31, 1.29)
+2025-03-26 10:07:51,265 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619784135
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0083, -0.0085, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.28, 1.20)
+2025-03-26 10:07:51,266 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619800802
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0083, -0.0085, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.59, -1.26, 1.27)
+2025-03-26 10:07:51,295 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619817469
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0083, -0.0085, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.67, -1.33, 1.20)
+2025-03-26 10:07:51,325 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619834136
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0084, -0.0085, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.67, -1.22, 1.20)
+2025-03-26 10:07:51,326 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619850803
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0084, -0.0084, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.67, -1.17, 1.18)
+2025-03-26 10:07:51,355 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619867470
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0084, -0.0084, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.31, 1.26)
+2025-03-26 10:07:51,356 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619884137
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0084, -0.0084, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.56, -1.36, 1.23)
+2025-03-26 10:07:51,385 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619900804
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7507, -0.0084, -0.0084, 0.6605)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.69, -1.30, 1.33)
+2025-03-26 10:07:51,386 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619917471
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7507, -0.0083, -0.0084, 0.6605)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.36, 1.34)
+2025-03-26 10:07:51,415 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619934138
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7507, -0.0083, -0.0084, 0.6605)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.57, -1.42, 1.28)
+2025-03-26 10:07:51,416 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619950805
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7507, -0.0083, -0.0084, 0.6605)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.52, -1.26, 1.27)
+2025-03-26 10:07:51,445 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619967472
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0083, -0.0084, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.21, 1.22)
+2025-03-26 10:07:51,477 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 619984139
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0083, -0.0084, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.62, -1.36, 1.25)
+2025-03-26 10:07:51,478 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 620000806
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0083, -0.0084, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.58, -1.52, 1.26)
+2025-03-26 10:07:51,507 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 620017473
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0083, -0.0084, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.56, -1.40, 1.24)
+2025-03-26 10:07:51,507 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 620034140
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0083, -0.0084, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.65, -1.22, 1.33)
+2025-03-26 10:07:51,535 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 620050807
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0083, -0.0083, 0.6604)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.68, -1.14, 1.21)
+2025-03-26 10:07:51,536 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 620067474
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0083, -0.0083, 0.6605)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.66, -1.29, 1.22)
+2025-03-26 10:07:51,566 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 620084141
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7507, -0.0083, -0.0083, 0.6605)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.66, -1.39, 1.24)
+2025-03-26 10:07:51,566 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 620100808
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7507, -0.0083, -0.0083, 0.6605)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.56, -1.44, 1.23)
+2025-03-26 10:07:51,597 - root - INFO - Quaternion Data:
+Sensor: Sensor-1
+Timestamp: 620117475
+Sensor: Sensor-1
+Quaternion (w,x,y,z): (0.7508, -0.0083, -0.0083, 0.6605)
+Free acceleration (m/s²): (0.00, 0.00, 0.00)
+Angular Velocity (dps): (-1.61, -1.26, 1.29)
+2025-03-26 10:07:51,625 - root - INFO - Stopped measurement
+2025-03-26 10:07:51,688 - root - INFO - Disconnected from all sensors
