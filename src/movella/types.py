@@ -40,3 +40,45 @@ class QuaternionData:
         """Check if quaternion is normalized (w²+x²+y²+z² ≈ 1)"""
         norm = sum(q*q for q in self.quaternion)
         return abs(norm - 1.0) <= tolerance
+    
+    def to_dict(self) -> dict:
+        """
+        Convert this data to a dictionary suitable for JSON serialization
+        
+        Returns:
+            Dictionary with all data components
+        """
+        w, x, y, z = self.quaternion
+        ax, ay, az = self.free_acceleration
+        acc_x, acc_y, acc_z = self.acceleration
+        gyr_x, gyr_y, gyr_z = self.angular_velocity
+        
+        # Calculate quaternion norm
+        quat_norm = sum(q*q for q in self.quaternion)
+        
+        return {
+            "timestamp": self.timestamp,
+            "quaternion": {
+                "w": w,
+                "x": x,
+                "y": y,
+                "z": z
+            },
+            "free_acceleration": {
+                "x": ax,
+                "y": ay,
+                "z": az
+            },
+            "acceleration": {
+                "x": acc_x,
+                "y": acc_y,
+                "z": acc_z
+            },
+            "angular_velocity": {
+                "x": gyr_x,
+                "y": gyr_y,
+                "z": gyr_z
+            },
+            "quaternion_norm": quat_norm,
+            "status": getattr(self, "status", 0)
+        }
