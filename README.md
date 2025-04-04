@@ -42,7 +42,7 @@ A Python-based tool to connect to Movella DOT sensors via Bluetooth Low Energy (
    cd movella-dot
    source venv/bin/activate
    cd src
-   python multi_main.py
+   python src/multi_main.py --json --output data/sensor_readings.json
 
  - You can specify sensors directly:
    ```bash
