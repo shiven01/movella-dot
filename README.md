@@ -42,11 +42,11 @@ A Python-based tool to connect to Movella DOT sensors via Bluetooth Low Energy (
    cd movella-dot
    source venv/bin/activate
    cd src
-   python src/multi_main.py --json --output data/sensor_readings.json
+   python src/main.py --json --output data/sensor_readings.json
 
  - You can specify sensors directly:
    ```bash
-   python multi_main.py --addresses ADDRESS1 ADDRESS2
+   python main.py --addresses ADDRESS1 ADDRESS2
 
  - Additional flag options:
    - --timeout or -t: Change the scan duration in seconds (default: 5.0)
