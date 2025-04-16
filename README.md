@@ -17,6 +17,7 @@ A Python-based tool to connect to Movella DOT sensors via Bluetooth Low Energy (
 - Python 3.8+
 - [Bleak](https://github.com/hbldh/bleak) BLE library
 - [NumPy](https://numpy.org/) for data parsing
+- Matplotlib for visualization (optional)
 - Movella DOT sensor with firmware 3.0.0
 
 ## Installation
