@@ -17,12 +17,10 @@ from matplotlib.animation import FuncAnimation
 # Import from Movella DOT package
 from movella.multi.multi_client import MultiMovellaDotClient
 from movella.types import QuaternionData
+from utils.logging_config import setup_logging
 
-# Set up logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-)
+# Logging Setuop
+setup_logging(log_file_name="movella_visualization.log")
 
 # Global data queue for passing quaternion data between threads
 data_queue = queue.Queue()
