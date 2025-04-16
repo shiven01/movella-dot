@@ -10,6 +10,7 @@ from movella.types import QuaternionData
 from movella.multi.multi_client import MultiMovellaDotClient
 from utils.json_output import JsonStreamWriter, create_multi_sensor_callback
 from utils.logging_config import setup_logging
+from utils.scanner import scan_for_movella_devices
 
 def process_quaternion(sensor_id: str, quat_data: QuaternionData) -> None:
     """
@@ -35,26 +36,6 @@ def process_quaternion(sensor_id: str, quat_data: QuaternionData) -> None:
     data_message = "\n".join(data_lines)
     logging.info(f"Quaternion Data:\n{data_message}")
     print(data_message)
-
-async def scan_for_movella_devices(timeout: float = 5.0) -> List[Tuple[str, str]]:
-    """
-    Scan for Movella DOT devices
-    
-    Args:
-        timeout: Scan duration in seconds
-        
-    Returns:
-        List of tuples (address, name) for found Movella DOT devices
-    """
-    print(f"Scanning for Movella DOT devices for {timeout} seconds...")
-    devices = await BleakScanner.discover(timeout=timeout)
-    
-    movella_devices = []
-    for device in devices:
-        if device.name and "Movella" in device.name:
-            movella_devices.append((device.address, device.name))
-    
-    return movella_devices
 
 async def main():
     parser = argparse.ArgumentParser(description="Connect to multiple Movella DOT sensors")
