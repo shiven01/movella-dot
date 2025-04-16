@@ -9,23 +9,7 @@ from bleak import BleakScanner
 from movella.types import QuaternionData
 from movella.multi.multi_client import MultiMovellaDotClient
 from utils.json_output import JsonStreamWriter, create_multi_sensor_callback
-
-def setup_logging():
-    log_file = Path(__file__).parent.parent / "logs" / "movella_multi_sensor.log"
-    
-    logging.basicConfig(
-        level=logging.DEBUG,
-        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-        filename=log_file,
-        filemode='a'
-    )
-
-    console = logging.StreamHandler()
-    console.setLevel(logging.INFO)
-    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-    console.setFormatter(formatter)
-    logging.getLogger('').addHandler(console)
-    logging.getLogger('bleak').setLevel(logging.WARNING)
+from utils.logging_config import setup_logging
 
 def process_quaternion(sensor_id: str, quat_data: QuaternionData) -> None:
     """
@@ -85,7 +69,7 @@ async def main():
     parser.add_argument("--pretty", action="store_true", help="Format JSON with indentation")
     args = parser.parse_args()
     
-    setup_logging()
+    setup_logging(log_file_name="movella_multi_sensor.log")
     
     json_writer = None
     multi_client = None
