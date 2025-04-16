@@ -6,6 +6,7 @@ from bleak import BleakClient
 
 from movella.types import QuaternionData
 from movella.parser import parse_quaternion_data
+from utils.callbacks import default_single_sensor_callback
 
 # UUIDs for Movella DOT
 CONTROL_CHARACTERISTIC_UUID = "15172001-4947-11e9-8646-d663bd873d93"
@@ -24,13 +25,6 @@ class MovellaDotClient:
         self.address = address
         self.client: Optional[BleakClient] = None
         self.callback = callback or self._default_callback
-    
-    def _default_callback(self, data: QuaternionData) -> None:
-        """Default callback that prints the quaternion data"""
-        print(f"Quaternion: {data.quaternion}")
-        print(f"Timestamp: {data.timestamp}")
-        print(f"Acceleration: {data.acceleration}")
-        print(f"Angular Velocity: {data.angular_velocity}")
     
     def notification_callback(self, sender, data: bytes) -> None:
         """

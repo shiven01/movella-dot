@@ -4,6 +4,7 @@ from typing import Dict, List, Callable, Optional, Tuple
 
 from movella.client import MovellaDotClient
 from movella.types import QuaternionData
+from utils.callbacks import default_multi_sensor_callback
 
 class MultiMovellaDotClient:
     """
@@ -20,10 +21,6 @@ class MultiMovellaDotClient:
         """
         self.sensors: Dict[str, MovellaDotClient] = {}
         self.user_callback = callback or self._default_callback
-        
-    def _default_callback(self, sensor_id: str, data: QuaternionData) -> None:
-        """Default callback that prints the quaternion data with sensor ID"""
-        print(f"Sensor {sensor_id}: Quaternion {data.quaternion}")
     
     def _create_sensor_callback(self, sensor_id: str) -> Callable[[QuaternionData], None]:
         """
