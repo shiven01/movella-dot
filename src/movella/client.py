@@ -7,6 +7,7 @@ from bleak import BleakClient
 from movella.types import QuaternionData
 from movella.parser import parse_quaternion_data
 from utils.callbacks import default_single_sensor_callback
+from movella.parser import parse_quaternion_data, parse_custom_mode_data
 
 # UUIDs for Movella DOT
 CONTROL_CHARACTERISTIC_UUID = "15172001-4947-11e9-8646-d663bd873d93"
@@ -24,7 +25,7 @@ class MovellaDotClient:
         """
         self.address = address
         self.client: Optional[BleakClient] = None
-        self.callback = callback or self._default_callback
+        self.callback = callback or default_single_sensor_callback
     
     def notification_callback(self, sender, data: bytes) -> None:
         """
@@ -36,11 +37,12 @@ class MovellaDotClient:
         """
         # Process the data based on the payload type
         if len(data) >= 44:  # Long payload (Custom Mode 5)
-            self.process_custom_mode_data(data)
+            parsed_data = parse_custom_mode_data(data)
         else:  # Medium payload (original quaternion data)
             parsed_data = parse_quaternion_data(data)
-            if parsed_data is not None:
-                self.callback(parsed_data)
+        
+        if parsed_data is not None:
+            self.callback(parsed_data)
     
     def process_custom_mode_data(self, data: bytes) -> None:
         """
