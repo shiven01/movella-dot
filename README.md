@@ -17,6 +17,7 @@ A Python-based tool to connect to Movella DOT sensors via Bluetooth Low Energy (
 - Python 3.8+
 - [Bleak](https://github.com/hbldh/bleak) BLE library
 - [NumPy](https://numpy.org/) for data parsing
+- Matplotlib for visualization (optional)
 - Movella DOT sensor with firmware 3.0.0
 
 ## Installation
@@ -33,21 +34,37 @@ A Python-based tool to connect to Movella DOT sensors via Bluetooth Low Energy (
 
 3. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+   python3 -m venv venv
+   source venv/bin/activate
+
+## Device Scanner
+
+Use the scanner to find Movella DOT devices in range:
+```python src/utils/scanner.py [options]```
+
+Options:
+ - ```-t, --timeout SECONDS```: Scan duration in seconds (default: 5.0)
+ - ```-i, --interactive```: Run in interactive mode to select devices
 
 ## Multi-Sensor Usage
+Connect to and stream data from multiple Movella DOT sensors:
+```python src/multi_main.py [options]```
 
- - Discover and connect to multiple sensors:
-   ```bash
-   cd movella-dot
-   source venv/bin/activate
-   cd src
-   python src/main.py --json --output data/sensor_readings.json
+Options:
+ - ```-t, --timeout SECONDS```: Scan duration in seconds (default: 5.0)
+ - ```-d, --duration SECONDS```: Streaming duration in seconds (default: 10.0)
+ - ```-a, --addresses [ADDR1 ADDR2 ...]```: Specify Bluetooth addresses of sensors
+ - ```--json```: Output data in JSON format
+ - ```--output FILENAME```: Output JSON to a file (default: sensor_readings.json)
+ - ```--pretty```: Format JSON with indentation
 
- - You can specify sensors directly:
-   ```bash
-   python main.py --addresses ADDRESS1 ADDRESS2
+## Real-Time Visualization
+Visualize sensor orientation in real-time:
+```python src/realtime_visualization.py [options]```
 
- - Additional flag options:
-   - --timeout or -t: Change the scan duration in seconds (default: 5.0)
-   - --duration or -d: Change the streaming duration in seconds (default: 10.0)
+Options:
+ - ```-t, --timeout SECONDS```: Scan duration in seconds (default: 5.0)
+ - ```-d, --duration SECONDS```: Streaming duration in seconds (default: 10.0)
+ - ```-a, --addresses [ADDR1 ADDR2 ...]```: Specify Bluetooth addresses of sensors
+ - ```--json```: Output data in JSON format
+ - ```--output FILENAME```: Output JSON to a file (default: sensor_readings.json)
