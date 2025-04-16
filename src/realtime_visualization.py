@@ -18,6 +18,7 @@ from matplotlib.animation import FuncAnimation
 from movella.multi.multi_client import MultiMovellaDotClient
 from movella.types import QuaternionData
 from utils.logging_config import setup_logging
+from utils.scanner import scan_for_movella_devices
 
 # Logging Setuop
 setup_logging(log_file_name="movella_visualization.log")
@@ -204,23 +205,6 @@ def process_quaternion_for_viz(sensor_id: str, quat_data: QuaternionData) -> Non
     
     # Also log the data for debugging
     logging.debug(f"Received data from {sensor_id}: {quat_data.quaternion}")
-
-async def scan_for_movella_devices(timeout: float = 5.0) -> List[Dict]:
-    """Scan for Movella DOT devices"""
-    from bleak import BleakScanner
-    
-    print(f"Scanning for Movella DOT devices for {timeout} seconds...")
-    devices = await BleakScanner.discover(timeout=timeout)
-    
-    movella_devices = []
-    for device in devices:
-        if device.name and "Movella" in device.name:
-            movella_devices.append({
-                'address': device.address,
-                'name': device.name
-            })
-    
-    return movella_devices
 
 async def sensor_data_collection(addresses: List[str], duration: float, save_output: Optional[str] = None):
     """Collect data from sensors for the specified duration"""
