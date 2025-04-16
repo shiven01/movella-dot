@@ -37,4 +37,4 @@ venv.bak/
 .DS_Store
 
 # Logging
-/data
+data/
