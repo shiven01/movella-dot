@@ -20,7 +20,7 @@ class MultiMovellaDotClient:
                       First parameter is the sensor's address, second is the quaternion data.
         """
         self.sensors: Dict[str, MovellaDotClient] = {}
-        self.user_callback = callback or self._default_callback
+        self.user_callback = callback or default_multi_sensor_callback
     
     def _create_sensor_callback(self, sensor_id: str) -> Callable[[QuaternionData], None]:
         """
