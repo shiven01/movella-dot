@@ -143,7 +143,6 @@ def main():
     parser = argparse.ArgumentParser(description="Scan for BLE devices, particularly Movella DOT sensors")
     parser.add_argument("-t", "--timeout", type=float, default=5.0, help="Scan duration in seconds")
     parser.add_argument("-i", "--interactive", action="store_true", help="Run in interactive mode to select devices")
-    parser.add_argument("-m", "--movella-only", action="store_true", help="Show only Movella devices")
     args = parser.parse_args()
     
     if args.interactive:
