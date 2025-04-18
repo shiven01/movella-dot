@@ -1,7 +1,14 @@
+"""
+Enhanced arm model for Movella DOT visualization.
+
+This module contains classes for representing a three-segment arm model
+with shoulder, elbow, and wrist joints using quaternion-based orientation.
+"""
+
 import numpy as np
 
 class ArmSegment:
-    """Represents a segment of an arm (e.g., upper arm, lower arm)"""
+    """Represents a segment of an arm (e.g., upper arm, forearm, hand)"""
     
     def __init__(self, name, length=1.0, start_point=np.array([0, 0, 0])):
         self.name = name
@@ -51,39 +58,58 @@ class ArmSegment:
         return rotated_v
 
 class ArmModel:
-    """Represents an arm with upper and lower segments joined at one joint"""
+    """Represents a complete arm with three segments and two joints (shoulder, elbow, and wrist)"""
     
     def __init__(self):
-        # Create upper arm segment
-        self.upper_arm = ArmSegment("upper_arm", length=1.0, start_point=np.array([0, 0, 0]))
+        # Create upper arm segment (shoulder to elbow)
+        self.upper_arm = ArmSegment("upper_arm", length=0.8, start_point=np.array([0, 0, 0]))
         
-        # Create lower arm segment - start point will be updated based on upper arm
-        self.lower_arm = ArmSegment("lower_arm", length=1.0, start_point=np.array([0, 0, 1.0]))
+        # Create forearm segment (elbow to wrist)
+        self.forearm = ArmSegment("forearm", length=0.7, start_point=np.array([0, 0, 0.8]))
+        
+        # Create hand segment (wrist to fingertips)
+        self.hand = ArmSegment("hand", length=0.4, start_point=np.array([0, 0, 1.5]))
         
         # Initialize quaternions
         self.upper_quaternion = np.array([1.0, 0.0, 0.0, 0.0])  # Identity quaternion
-        self.lower_quaternion = np.array([1.0, 0.0, 0.0, 0.0])  # Identity quaternion
-        self.relative_quaternion = np.array([1.0, 0.0, 0.0, 0.0])  # Identity quaternion
+        self.forearm_quaternion = np.array([1.0, 0.0, 0.0, 0.0])  # Identity quaternion
+        self.hand_quaternion = np.array([1.0, 0.0, 0.0, 0.0])  # Identity quaternion
+        
+        # Relative quaternions (for joint angles)
+        self.elbow_relative_quaternion = np.array([1.0, 0.0, 0.0, 0.0])  # Identity quaternion
+        self.wrist_relative_quaternion = np.array([1.0, 0.0, 0.0, 0.0])  # Identity quaternion
     
-    def update_from_sensors(self, upper_quat, lower_quat):
-        """Update arm model with new sensor quaternions"""
+    def update_from_sensors(self, upper_quat, forearm_quat, hand_quat):
+        """Update arm model with new sensor quaternions for all three segments"""
         # Store original quaternions
         self.upper_quaternion = upper_quat
-        self.lower_quaternion = lower_quat
+        self.forearm_quaternion = forearm_quat
+        self.hand_quaternion = hand_quat
         
-        # Calculate relative quaternion (rotation of lower arm relative to upper arm)
-        self.relative_quaternion = self.multiply_inverse_quaternion(
-            self.upper_quaternion, self.lower_quaternion)
+        # Calculate relative quaternion for elbow (rotation of forearm relative to upper arm)
+        self.elbow_relative_quaternion = self.multiply_inverse_quaternion(
+            self.upper_quaternion, self.forearm_quaternion)
+        
+        # Calculate relative quaternion for wrist (rotation of hand relative to forearm)
+        self.wrist_relative_quaternion = self.multiply_inverse_quaternion(
+            self.forearm_quaternion, self.hand_quaternion)
         
         # Update upper arm with its quaternion
         self.upper_arm.update_orientation(self.upper_quaternion)
         
-        # Get upper arm end point, which is lower arm start point
-        _, end_point = self.upper_arm.get_transformed_points()
+        # Get upper arm end point, which is forearm start point
+        _, elbow_point = self.upper_arm.get_transformed_points()
         
-        # Update lower arm start point and orientation
-        self.lower_arm.start_point = end_point
-        self.lower_arm.update_orientation(self.lower_quaternion)
+        # Update forearm start point and orientation
+        self.forearm.start_point = elbow_point
+        self.forearm.update_orientation(self.forearm_quaternion)
+        
+        # Get forearm end point, which is hand start point
+        _, wrist_point = self.forearm.get_transformed_points()
+        
+        # Update hand start point and orientation
+        self.hand.start_point = wrist_point
+        self.hand.update_orientation(self.hand_quaternion)
     
     @staticmethod
     def multiply_inverse_quaternion(q1, q2):
