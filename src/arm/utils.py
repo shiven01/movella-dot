@@ -1,11 +1,20 @@
+"""
+Utility functions for arm visualization with three sensors.
+
+This module provides utility functions for the three-segment arm visualization,
+such as sensor calibration.
+"""
+
 import asyncio
 import numpy as np
-from asyncio.log import logger
+import logging
 import threading
+
+logger = logging.getLogger("ArmUtils")
 
 def calibrate_sensors(multi_client):
     """
-    Perform a simple calibration to define the initial position
+    Perform calibration to define the initial position for all three arm segments
     Returns the calibration quaternions
     """
     logger.info("CALIBRATION: Please hold the arm straight for 3 seconds...")
@@ -13,7 +22,8 @@ def calibrate_sensors(multi_client):
     # Initialize calibration storage
     calibration_data = {
         "upper_arm": None,
-        "lower_arm": None
+        "forearm": None,
+        "hand": None
     }
     
     # Create a calibration event
@@ -25,7 +35,7 @@ def calibrate_sensors(multi_client):
         if sensor_id in calibration_data:
             calibration_data[sensor_id] = quat_data.quaternion
             
-            # Check if we have data from both sensors
+            # Check if we have data from all three sensors
             if all(calibration_data.values()):
                 calibration_complete.set()
     
@@ -41,7 +51,8 @@ def calibrate_sensors(multi_client):
         logger.warning("Calibration timed out, using identity quaternions")
         calibration_data = {
             "upper_arm": np.array([1.0, 0.0, 0.0, 0.0]),
-            "lower_arm": np.array([1.0, 0.0, 0.0, 0.0])
+            "forearm": np.array([1.0, 0.0, 0.0, 0.0]),
+            "hand": np.array([1.0, 0.0, 0.0, 0.0])
         }
     
     # Restore original callback
