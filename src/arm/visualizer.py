@@ -183,7 +183,7 @@ def main():
     parser = argparse.ArgumentParser(description="Visualize complete arm using three Movella DOT sensors")
     parser.add_argument("-u", "--upper", help="Bluetooth address of upper arm sensor")
     parser.add_argument("-f", "--forearm", help="Bluetooth address of forearm sensor")
-    parser.add_argument("-h", "--hand", help="Bluetooth address of hand sensor", dest="hand_sensor")
+    parser.add_argument("-a", "--hand", help="Bluetooth address of hand sensor", dest="hand_sensor")
     parser.add_argument("-t", "--timeout", type=float, default=5.0, help="Scan timeout in seconds")
     parser.add_argument("-d", "--duration", type=float, default=60.0, help="Streaming duration in seconds")
     args = parser.parse_args()
