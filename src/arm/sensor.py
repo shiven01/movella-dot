@@ -1,4 +1,9 @@
-from asyncio.log import logger
+"""
+Sensor handler for three Movella DOT sensors for realistic arm tracking.
+
+This module handles sensor data collection and processing for shoulder, elbow, and wrist tracking.
+"""
+
 import threading
 import asyncio
 import numpy as np
@@ -8,10 +13,10 @@ from movella.multi.multi_client import MultiMovellaDotClient
 from movella.types import QuaternionData
 from shared.resources import data_queue
 
+logger = logging.getLogger("ArmSensor")
 
 def process_quaternion_for_arm_viz(sensor_id: str, quat_data: QuaternionData) -> None:
     """Process quaternion data and add it to the queue for visualization"""
-    global latest_data
     
     # Extract the quaternion data (w, x, y, z)
     quat = quat_data.quaternion
@@ -19,41 +24,42 @@ def process_quaternion_for_arm_viz(sensor_id: str, quat_data: QuaternionData) ->
     # Identify which arm segment this sensor is for
     if sensor_id == "upper_arm":
         arm_segment = "upper_arm"
-    elif sensor_id == "lower_arm":
-        arm_segment = "lower_arm"
+    elif sensor_id == "forearm":
+        arm_segment = "forearm"
+    elif sensor_id == "hand":
+        arm_segment = "hand"
     else:
         # Skip if not a recognized sensor
         logger.warning(f"Received data from unknown sensor: {sensor_id}")
         return
     
-    # Create data dictionary with the quaternion
-    data = {
-        arm_segment: np.array(quat)
-    }
+    # Store the quaternion data
+    if not hasattr(process_quaternion_for_arm_viz, 'latest_data'):
+        # Initialize the latest data storage on first call
+        process_quaternion_for_arm_viz.latest_data = {}
     
-    # Check if we have both sensor readings before updating the queue
-    if hasattr(process_quaternion_for_arm_viz, 'latest_data'):
-        process_quaternion_for_arm_viz.latest_data[arm_segment] = np.array(quat)
-        
-        # Only add to visualization queue if we have both sensors' data
-        if 'upper_arm' in process_quaternion_for_arm_viz.latest_data and 'lower_arm' in process_quaternion_for_arm_viz.latest_data:
-            # Add a copy of the current data to queue
-            data_queue.put(process_quaternion_for_arm_viz.latest_data.copy())
-    else:
-        # Initialize the latest data storage
-        process_quaternion_for_arm_viz.latest_data = {arm_segment: np.array(quat)}
+    # Update the data for this segment
+    process_quaternion_for_arm_viz.latest_data[arm_segment] = np.array(quat)
+    
+    # Only add to visualization queue if we have all three sensors' data
+    if ('upper_arm' in process_quaternion_for_arm_viz.latest_data and 
+        'forearm' in process_quaternion_for_arm_viz.latest_data and
+        'hand' in process_quaternion_for_arm_viz.latest_data):
+        # Add a copy of the current data to queue
+        data_queue.put(process_quaternion_for_arm_viz.latest_data.copy())
     
     # Log the data
     logger.debug(f"Received {arm_segment} quaternion: {quat}")
 
-async def sensor_data_collection(upper_address: str, lower_address: str, duration: float):
-    """Collect data from sensors for the specified duration"""
+async def sensor_data_collection(upper_address: str, forearm_address: str, hand_address: str, duration: float):
+    """Collect data from three sensors for the specified duration"""
     # Create multi-sensor client with our visualization callback
     multi_client = MultiMovellaDotClient(process_quaternion_for_arm_viz)
     
     # Add sensors with specific names for identification
     multi_client.add_sensor(upper_address, "upper_arm")
-    multi_client.add_sensor(lower_address, "lower_arm")
+    multi_client.add_sensor(forearm_address, "forearm")
+    multi_client.add_sensor(hand_address, "hand")
     
     # Connect to all sensors
     logger.info("Connecting to sensors...")
@@ -76,6 +82,6 @@ async def sensor_data_collection(upper_address: str, lower_address: str, duratio
     logger.info("Disconnecting from sensors...")
     await multi_client.disconnect_all()
 
-def run_sensor_collection(upper_address, lower_address, duration):
+def run_sensor_collection(upper_address, forearm_address, hand_address, duration):
     """Run the sensor data collection in a separate thread"""
-    asyncio.run(sensor_data_collection(upper_address, lower_address, duration))
+    asyncio.run(sensor_data_collection(upper_address, forearm_address, hand_address, duration))
